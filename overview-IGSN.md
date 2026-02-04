@@ -76,7 +76,11 @@ Examples:
 
 
 # References
-- [^1]: DataCite Support. “IGSN ID Metadata Recommendations.” Accessed February 2, 2026. https://support.datacite.org/docs/igsn-ids.
-- [^2]: https://support.datacite.org/docs/enriching-igsn-id-metadata-in-the-datacite-metadata-schema#building-relationships-between-igsn-ids-and-other-resources-that-use-pids
-- [^4]: https://support.datacite.org/docs/harmonizing-datacite-schema-metadata-and-disciplinary-sample-metadata
-- [^5]: https://support.datacite.org/docs/enriching-igsn-id-metadata-in-the-datacite-metadata-schema#linking-to-custom-metadata
+
+[^1]: DataCite Support. “IGSN ID Metadata Recommendations.” Accessed February 2, 2026. https://support.datacite.org/docs/igsn-ids.
+
+[^2]: https://support.datacite.org/docs/enriching-igsn-id-metadata-in-the-datacite-metadata-schema#building-relationships-between-igsn-ids-and-other-resources-that-use-pids
+
+[^4]: https://support.datacite.org/docs/harmonizing-datacite-schema-metadata-and-disciplinary-sample-metadata
+
+[^5]: https://support.datacite.org/docs/enriching-igsn-id-metadata-in-the-datacite-metadata-schema#linking-to-custom-metadata
