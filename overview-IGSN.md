@@ -1,11 +1,5 @@
 # IGSN & Datacite
 
-## Timeline
-
-- In 2021, the IGSN e.V. and DataCite entered into a strategic partnership and since January 2023 IGSN IDs have been registered as IGSN IDs via DataCite. 
-- Until the end of 2022 The IGSN e.V.,manages the IGSN activities and operated the central registration system based on the Handle.Net system (at GFZ) 
-- Since 2023, IGSNs are registered as DataCite IGSN IDs (functionally DOIs) [^1]
-
 ## IGSN IDs
 
 >  International Generic Sample Numbers (IGSN IDs) are functionally Digital Object Identifiers (DOIs) with metadata structured according to the DataCite Metadata Schema. [^4]
@@ -41,7 +35,15 @@ See also https://support.datacite.org/docs/igsn-id-metadata-recommendations
 
 
 > Relationships among IGSN IDs and with other resources that use PIDs can be encoded in the DataCite Metadata Schema and represented in the PID Graph
-> The `relatedIdentifier` property in the DataCite Metadata Schema can be used to build relationships among IGSN IDs and with other resources that use PIDs. [^3]
+> The `relatedIdentifier` property in the DataCite Metadata Schema can be used to build relationships among IGSN IDs and with other resources that use PIDs. [^2]
+
+
+## Timeline
+
+- In 2021, the IGSN e.V. and DataCite entered into a strategic partnership and since January 2023 IGSN IDs have been registered as IGSN IDs via DataCite. 
+- Until the end of 2022 The IGSN e.V.,manages the IGSN activities and operated the central registration system based on the Handle.Net system (at GFZ) 
+- Since 2023, IGSNs are registered as DataCite IGSN IDs (functionally DOIs) [^1]
+
 
 # IGSN Components
 
@@ -75,7 +77,6 @@ Examples:
 
 # References
 - [^1]: DataCite Support. “IGSN ID Metadata Recommendations.” Accessed February 2, 2026. https://support.datacite.org/docs/igsn-ids.
-- [^2]: DataCite Support. “Registering IGSN IDs.” Accessed February 2, 2026. https://support.datacite.org/docs/registering-igsn-ids.
-- [^3]: https://support.datacite.org/docs/enriching-igsn-id-metadata-in-the-datacite-metadata-schema#building-relationships-between-igsn-ids-and-other-resources-that-use-pids
+- [^2]: https://support.datacite.org/docs/enriching-igsn-id-metadata-in-the-datacite-metadata-schema#building-relationships-between-igsn-ids-and-other-resources-that-use-pids
 - [^4]: https://support.datacite.org/docs/harmonizing-datacite-schema-metadata-and-disciplinary-sample-metadata
 - [^5]: https://support.datacite.org/docs/enriching-igsn-id-metadata-in-the-datacite-metadata-schema#linking-to-custom-metadata
