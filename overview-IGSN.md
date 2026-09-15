@@ -2,9 +2,9 @@
 
 ## IGSN IDs
 
->  International Generic Sample Numbers (IGSN IDs) are functionally Digital Object Identifiers (DOIs) with metadata structured according to the DataCite Metadata Schema. [^4]
+> International Generic Sample Numbers (IGSN IDs) are functionally Digital Object Identifiers (DOIs) with metadata structured according to the DataCite Metadata Schema. [^4]
 
-# IGSN Records     
+# IGSN Records
 
 ## IGSN Metadata Schema
 
@@ -52,27 +52,40 @@ See also https://support.datacite.org/docs/igsn-id-metadata-recommendations
 4 key components are involved in a IGSN ID registration, namely:
 * **IGSN ID** e.g., 10.58030/kielbot0007007. fundamental identifier. It establishes a crucial link between the sample and its associated metadata and landing page.
 * **landing page**: web page that provides descriptive information about the sample and is associated with the IGSN ID. Typically includes a summary of the sample’s characteristics, images, and links to related data and publications. ie. https://jacq.org/detail/1681487 (landing page of 10.58030/kielbot0007007; obtained from [its Datacite metadata record](https://api.datacite.org/application/vnd.datacite.datacite+json/10.58030/kielbot0007007) under property URL )
-* **metadata** in Datacite schema, stored in Datacite, accessible in commons ie. https://commons.datacite.org/doi.org/10.58030/kielbot0007007 (same IGSN ID mentioned above) 
+* **metadata** in Datacite schema, stored in Datacite, accessible in commons ie. https://commons.datacite.org/doi.org/10.58030/kielbot0007007 (same IGSN ID mentioned above)
 * **physical sample object** is associated with an IGSN ID and described by metadata and the landing page.
-
 
 ## IGSN IDs landing page
 
 Examples:
-- https://app.geosamples.org/sample/igsn/10.58052/SSH000SUA [10.58052/SSH000SUA in Datacite Commons](https://commons.datacite.org/doi.org/10.58052/ssh000sua)
-- https://dataservices.gfz-potsdam.de/igsn/icdp/index.php?igsn=ICDP5054EEW1001 ICDP5054EEW1001 is not a DOI - hence it is not in DataCite Commons
 
-
+* <https://app.geosamples.org/sample/igsn/10.58052/SSH000SUA> [10.58052/SSH000SUA in Datacite Commons](https://commons.datacite.org/doi.org/10.58052/ssh000sua)
+* <https://digiarchiv.aiscr.cz/id/C-N9001481>z [10.71928/c-n9001481 in Datacite Commons](https://commons.datacite.org/doi.org/10.71928/c-n9001481)
 
 
 # IGSN Catalogs
 
-- https://dataservices.gfz-potsdam.de/igsn-new/
-    - DOES NOT: display full IGSN ID (DOI)
-    - DOES NOT: provide machine-readable metadata
-- https://www.geosamples.org/
-    - sample example: https://app.geosamples.org/sample/igsn/10.58136/UGS0006JB
+* <https://dataservices.gfz-potsdam.de/igsn-new/>
+  * DOES NOT: display full IGSN ID (DOI)
+  * DOES NOT: provide machine-readable metadata
+* <https://www.geosamples.org/>
+  * sample example: <https://app.geosamples.org/sample/igsn/10.58136/UGS0006JB>
 
+# Creating an IGSN ID Catalog Repository
+
+Reference: <https://support.datacite.org/docs/registering-igsn-ids>
+
+"IGSN IDs can only be registered with a designated IGSN ID Catalog Repository."
+
+To create a IGSN CataloglLog in to [Datacite Fabrica](https://doi.datacite.org/) as a Direct Member, Consortium Organization, or Consortium Lead.
+In the Repositories tab of a Direct Member or Consortium Organization, click the "Add Repository" button.
+On the "Add Repository" page, select "IGSN ID Catalog" option from the Type dropdown list.
+
+# Registrying IGSNs
+
+<https://support.datacite.org/docs/igsn-id-registration-guide>
+
+"IGSN IDs are distinguished from DOIs for other physical objects at the **Repository account** and **prefix level**"
 
 
 # References
