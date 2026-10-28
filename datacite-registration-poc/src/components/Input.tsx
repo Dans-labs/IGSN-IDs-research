@@ -34,7 +34,10 @@ export function TextField({ label, inValid, ...props }: TextFieldProps) {
 export function FormTextField({
   label,
   ...props
-}: Omit<TextFieldProps, 'inValid' | 'value' | 'defaultValue' | 'name' | 'onChange' | 'onBlur'>) {
+}: Omit<
+  TextFieldProps,
+  'inValid' | 'value' | 'defaultValue' | 'name' | 'onChange' | 'onBlur'
+>) {
   const field = useFieldContext<string | number>()
   const { isTouched, isValid } = field.state.meta
 
@@ -43,7 +46,7 @@ export function FormTextField({
       {...props}
       label={label}
       name={field.name}
-      value={field.state.value ?? ''}
+      value={field.state.value}
       onBlur={field.handleBlur}
       onChange={(e) => field.handleChange(e.target.value)}
       inValid={isTouched && !isValid}

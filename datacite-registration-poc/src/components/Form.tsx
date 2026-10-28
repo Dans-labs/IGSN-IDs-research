@@ -1,12 +1,14 @@
-import { createFormHook, useField, type AnyFieldApi } from '@tanstack/react-form'
+import { createFormHook } from '@tanstack/react-form'
+import type { AnyFieldApi } from '@tanstack/react-form'
 import { FormButton } from '#/components/Buttons'
 import { m } from '#/paraglide/messages'
 import { schema } from '#/helpers/igsnSchema'
-import { useState, type ComponentType, type ReactNode } from 'react'
+import { useState } from 'react'
+import type { ComponentType, ReactNode } from 'react'
 import { useServerFn } from '@tanstack/react-start'
 import { registerIgsn } from '#/api/igsn.functions'
 import { fieldContext, formContext } from '#/components/form-context'
-import { FormTextField, TextField } from '#/components/Input'
+import { FormTextField } from '#/components/Input'
 
 const { useAppForm } = createFormHook({
   fieldComponents: { TextField: FormTextField },
@@ -17,7 +19,9 @@ const { useAppForm } = createFormHook({
 
 export default function Form() {
   const register = useServerFn(registerIgsn)
-  const [result, setResult] = useState<Awaited<ReturnType<typeof register>> | null>(null)
+  const [result, setResult] = useState<Awaited<
+    ReturnType<typeof register>
+  > | null>(null)
   const [error, setError] = useState<string | null>(null)
 
   const form = useAppForm({
@@ -38,7 +42,7 @@ export default function Form() {
         fieldErrors: formApi.state.fieldMeta,
       })
     },
-     onSubmit: async ({ value }) => {
+    onSubmit: async ({ value }) => {
       setError(null)
       setResult(null)
       try {
@@ -104,20 +108,27 @@ export default function Form() {
       </form.AppField>
 
       <form.AppField name="publicationYear">
-        {(field) => <field.TextField label={m.publicationYear()} type="number" />}
+        {(field) => (
+          <field.TextField label={m.publicationYear()} type="number" />
+        )}
       </form.AppField>
 
       <form.AppForm>
         <form.FormButton type="submit" text={m.submit()} />
       </form.AppForm>
 
-      {error && <p role="alert" className="text-sm text-red-500">{error}</p>}
-      {result && <p className="text-green-500">{m.success({id: result.data.id})}</p>}
-
+      {error && (
+        <p role="alert" className="text-sm text-red-500">
+          {error}
+        </p>
+      )}
+      {result && (
+        <p className="text-green-500">{m.success({ id: result.data.id })}</p>
+      )}
     </form>
   )
 }
- 
+
 type FieldConfig = {
   name: SimpleMessageKey
   type: 'TextField' // key of fieldComponents in createFormHook
@@ -134,13 +145,18 @@ type AppFormLike = {
   }>
 }
 
-function FieldArray({ form, title, field, fieldConfig }: {
+function FieldArray({
+  form,
+  title,
+  field,
+  fieldConfig,
+}: {
   form: AppFormLike
   title: string
   field: AnyFieldApi
-  fieldConfig: FieldConfig[]
+  fieldConfig: Array<FieldConfig>
 }) {
-  const items = field.state.value as Record<string, string>[]
+  const items = field.state.value as Array<Record<string, string>>
 
   return (
     <div>
@@ -148,7 +164,10 @@ function FieldArray({ form, title, field, fieldConfig }: {
       {items.map((_, i) => (
         <div key={i} className="border border-gray-200 rounded-sm p-2 mb-2">
           {fieldConfig.map((config) => (
-            <form.AppField key={config.name} name={`${field.name}[${i}].${config.name}`}>
+            <form.AppField
+              key={config.name}
+              name={`${field.name}[${i}].${config.name}`}
+            >
               {(subField) => {
                 const Component = subField[config.type]
                 return <Component label={`${m[config.name]()} ${i + 1}`} />
@@ -156,13 +175,20 @@ function FieldArray({ form, title, field, fieldConfig }: {
             </form.AppField>
           ))}
           {i > 0 && (
-            <FormButton onClick={() => field.removeValue(i)} type="button" text={m.remove()} className="mt-2" />
+            <FormButton
+              onClick={() => field.removeValue(i)}
+              type="button"
+              text={m.remove()}
+              className="mt-2"
+            />
           )}
         </div>
       ))}
       <FormButton
         onClick={() =>
-          field.pushValue(Object.fromEntries(fieldConfig.map((c) => [c.name, ''])))
+          field.pushValue(
+            Object.fromEntries(fieldConfig.map((c) => [c.name, ''])),
+          )
         }
         type="button"
         text={m.addMore()}

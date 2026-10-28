@@ -1,9 +1,9 @@
-import { Button } from '@base-ui/react/button';
+import { Button } from '@base-ui/react/button'
 
 type FormButtonProps = Button.Props & {
-  text: string;
-  className?: string;
-};
+  text: string
+  className?: string
+}
 
 export function FormButton({ text, className, ...props }: FormButtonProps) {
   return (
@@ -13,5 +13,5 @@ export function FormButton({ text, className, ...props }: FormButtonProps) {
     >
       {text}
     </Button>
-  );
+  )
 }

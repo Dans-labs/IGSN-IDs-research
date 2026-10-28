@@ -8,14 +8,14 @@ export const registerIgsn = createServerFn({ method: 'POST' })
       data: {
         attributes: {
           prefix: process.env.IGSN_PREFIX,
-          state: "draft",
-          types: { 
-            resourceTypeGeneral: "PhysicalObject",
+          state: 'draft',
+          types: {
+            resourceTypeGeneral: 'PhysicalObject',
           },
-          ...data
+          ...data,
         },
-        type: "dois",
-      }
+        type: 'dois',
+      },
     }
     const res = await fetch(`${process.env.IGSN_API_URL}/dois`, {
       method: 'POST',

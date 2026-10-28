@@ -1,1 +1,1 @@
-vp staged
+cd datacite-registration-poc && vp staged
