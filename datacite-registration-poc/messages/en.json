@@ -1,0 +1,21 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "url": "URL",
+  "creators": "Creators",
+  "creator": "Creator",
+  "add": "Add {what}",
+  "addMore": "Add another",
+  "remove": "Remove",
+  "name": "Name",
+  "affiliation": "Affiliation",
+  "publisher": "Publisher",
+  "titles": "Titles",
+  "title": "Title",
+  "identifier": "Identifier",
+  "publicationYear": "Publication Year",
+  "submit": "Submit",
+  "registerAnIGSN": "Register an IGSN",
+  "inValid": "Invalid input",
+  "success": "IGSN succesfully registered on Datacite.org with id {id}"
+}
+  

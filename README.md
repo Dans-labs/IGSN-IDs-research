@@ -10,7 +10,7 @@
     * example Archeology IGSN: <https://doi.org/10.71928/m-202600319-n00016>
     * example Botany IGSN: <https://doi.org/10.58030/kielbot0007050>
     * example of IGSN with relation to other identifiers (DOIs & IGSN) <https://doi.org/10.60578/0jf7-3tu6>
-
+* [Datacite Registration Demo](datacite-registration-poc) - Bare bones application that registers IGSNs at Datacite
 ---
 
 Andre Castro (DANS) </br>

@@ -1,0 +1,293 @@
+import { defineConfig, lazyPlugins } from "vite-plus";
+import { devtools } from "@tanstack/devtools-vite";
+import { paraglideVitePlugin } from "@inlang/paraglide-js";
+
+import { tanstackStart } from "@tanstack/react-start/plugin/vite";
+
+import viteReact, { reactCompilerPreset } from "@vitejs/plugin-react";
+import babel from "@rolldown/plugin-babel";
+import tailwindcss from "@tailwindcss/vite";
+import { nitro } from "nitro/vite";
+
+const config = defineConfig({
+  staged: {
+    "*": "vp check --fix"
+  },
+  lint: {
+    "plugins": [
+      "oxc",
+      "typescript",
+      "unicorn",
+      "import"
+    ],
+    "categories": {
+      "correctness": "warn"
+    },
+    "options": {
+      "typeAware": true,
+      "typeCheck": true
+    },
+    "env": {
+      "builtin": true
+    },
+    "ignorePatterns": [
+      "**/.nx/**",
+      "**/.svelte-kit/**",
+      "**/build/**",
+      "**/coverage/**",
+      "**/dist/**",
+      "**/snap/**",
+      "**/vite.config.*.timestamp-*.*",
+      "eslint.config.js",
+      "prettier.config.js"
+    ],
+    "rules": {
+      "vite-plus/prefer-vite-plus-imports": "error"
+    },
+    "overrides": [
+      {
+        "files": [
+          "**/*.{js,ts,tsx}"
+        ],
+        "rules": {
+          "for-direction": "error",
+          "no-async-promise-executor": "error",
+          "no-case-declarations": "error",
+          "no-class-assign": "error",
+          "no-compare-neg-zero": "error",
+          "no-cond-assign": "error",
+          "no-constant-binary-expression": "error",
+          "no-constant-condition": "error",
+          "no-control-regex": "error",
+          "no-debugger": "error",
+          "no-delete-var": "error",
+          "no-dupe-else-if": "error",
+          "no-duplicate-case": "error",
+          "no-empty-character-class": "error",
+          "no-empty-pattern": "error",
+          "no-empty-static-block": "error",
+          "no-ex-assign": "error",
+          "no-extra-boolean-cast": "error",
+          "no-fallthrough": "error",
+          "no-global-assign": "error",
+          "no-invalid-regexp": "error",
+          "no-irregular-whitespace": "error",
+          "no-loss-of-precision": "error",
+          "no-misleading-character-class": "error",
+          "no-nonoctal-decimal-escape": "error",
+          "no-regex-spaces": "error",
+          "no-self-assign": "error",
+          "no-shadow": "warn",
+          "no-shadow-restricted-names": "error",
+          "no-sparse-arrays": "error",
+          "no-unsafe-finally": "error",
+          "no-unsafe-optional-chaining": "error",
+          "no-unused-labels": "error",
+          "no-unused-private-class-members": "error",
+          "no-useless-backreference": "error",
+          "no-useless-catch": "error",
+          "no-useless-escape": "error",
+          "no-var": "error",
+          "no-with": "error",
+          "prefer-const": "error",
+          "require-yield": "error",
+          "use-isnan": "error",
+          "valid-typeof": "error",
+          "import/consistent-type-specifier-style": [
+            "error",
+            "prefer-top-level"
+          ],
+          "import/first": "error",
+          "import/newline-after-import": "error",
+          "import/no-commonjs": "error",
+          "import/no-duplicates": "error",
+          "typescript/array-type": [
+            "error",
+            {
+              "default": "generic",
+              "readonly": "generic"
+            }
+          ],
+          "typescript/ban-ts-comment": [
+            "error",
+            {
+              "ts-expect-error": false,
+              "ts-ignore": "allow-with-description"
+            }
+          ],
+          "typescript/consistent-type-imports": [
+            "error",
+            {
+              "prefer": "type-imports"
+            }
+          ],
+          "typescript/method-signature-style": [
+            "error",
+            "property"
+          ],
+          "typescript/no-duplicate-enum-values": "error",
+          "typescript/no-extra-non-null-assertion": "error",
+          "typescript/no-for-in-array": "error",
+          "typescript/no-inferrable-types": [
+            "error",
+            {
+              "ignoreParameters": true
+            }
+          ],
+          "typescript/no-misused-new": "error",
+          "typescript/no-namespace": "error",
+          "typescript/no-non-null-asserted-optional-chain": "error",
+          "typescript/no-unnecessary-condition": "error",
+          "typescript/no-unnecessary-type-assertion": "error",
+          "typescript/no-unsafe-function-type": "error",
+          "typescript/no-wrapper-object-types": "error",
+          "typescript/prefer-as-const": "error",
+          "typescript/prefer-for-of": "warn",
+          "typescript/require-await": "warn",
+          "typescript/triple-slash-reference": "error"
+        },
+        "jsPlugins": [],
+        "env": {
+          "es2020": true,
+          "browser": true
+        }
+      },
+      {
+        "files": [
+          "**/*.vue"
+        ],
+        "rules": {
+          "for-direction": "error",
+          "no-async-promise-executor": "error",
+          "no-case-declarations": "error",
+          "no-class-assign": "error",
+          "no-compare-neg-zero": "error",
+          "no-cond-assign": "error",
+          "no-constant-binary-expression": "error",
+          "no-constant-condition": "error",
+          "no-control-regex": "error",
+          "no-debugger": "error",
+          "no-delete-var": "error",
+          "no-dupe-else-if": "error",
+          "no-duplicate-case": "error",
+          "no-empty-character-class": "error",
+          "no-empty-pattern": "error",
+          "no-empty-static-block": "error",
+          "no-ex-assign": "error",
+          "no-extra-boolean-cast": "error",
+          "no-fallthrough": "error",
+          "no-global-assign": "error",
+          "no-invalid-regexp": "error",
+          "no-irregular-whitespace": "error",
+          "no-loss-of-precision": "error",
+          "no-misleading-character-class": "error",
+          "no-nonoctal-decimal-escape": "error",
+          "no-regex-spaces": "error",
+          "no-self-assign": "error",
+          "no-shadow": "warn",
+          "no-shadow-restricted-names": "error",
+          "no-sparse-arrays": "error",
+          "no-unsafe-finally": "error",
+          "no-unsafe-optional-chaining": "error",
+          "no-unused-labels": "error",
+          "no-unused-private-class-members": "error",
+          "no-useless-backreference": "error",
+          "no-useless-catch": "error",
+          "no-useless-escape": "error",
+          "no-var": "error",
+          "no-with": "error",
+          "prefer-const": "error",
+          "require-yield": "error",
+          "use-isnan": "error",
+          "valid-typeof": "error",
+          "import/consistent-type-specifier-style": [
+            "error",
+            "prefer-top-level"
+          ],
+          "import/first": "error",
+          "import/newline-after-import": "error",
+          "import/no-commonjs": "error",
+          "import/no-duplicates": "error",
+          "typescript/array-type": [
+            "error",
+            {
+              "default": "generic",
+              "readonly": "generic"
+            }
+          ],
+          "typescript/ban-ts-comment": [
+            "error",
+            {
+              "ts-expect-error": false,
+              "ts-ignore": "allow-with-description"
+            }
+          ],
+          "typescript/consistent-type-imports": [
+            "error",
+            {
+              "prefer": "type-imports"
+            }
+          ],
+          "typescript/method-signature-style": [
+            "error",
+            "property"
+          ],
+          "typescript/no-duplicate-enum-values": "error",
+          "typescript/no-extra-non-null-assertion": "error",
+          "typescript/no-for-in-array": "error",
+          "typescript/no-inferrable-types": [
+            "error",
+            {
+              "ignoreParameters": true
+            }
+          ],
+          "typescript/no-misused-new": "error",
+          "typescript/no-namespace": "error",
+          "typescript/no-non-null-asserted-optional-chain": "error",
+          "typescript/no-unnecessary-condition": "error",
+          "typescript/no-unnecessary-type-assertion": "error",
+          "typescript/no-unsafe-function-type": "error",
+          "typescript/no-wrapper-object-types": "error",
+          "typescript/prefer-as-const": "error",
+          "typescript/prefer-for-of": "warn",
+          "typescript/require-await": "warn",
+          "typescript/triple-slash-reference": "error"
+        },
+        "jsPlugins": [],
+        "env": {
+          "browser": true
+        }
+      }
+    ],
+    "jsPlugins": [
+      {
+        "name": "vite-plus",
+        "specifier": "vite-plus/oxlint-plugin"
+      }
+    ]
+  },
+  fmt: {
+    semi: false,
+    singleQuote: true,
+    trailingComma: "all",
+    printWidth: 80,
+    sortPackageJson: false,
+    ignorePatterns: ["package-lock.json", "pnpm-lock.yaml", "yarn.lock"],
+  },
+  resolve: { tsconfigPaths: true },
+  plugins: lazyPlugins(() => [
+    devtools(),
+    paraglideVitePlugin({
+      project: "./project.inlang",
+      outdir: "./src/paraglide",
+      strategy: ["url", "baseLocale"],
+    }),
+    nitro({ rollupConfig: { external: [/^@sentry\//] } }),
+    tailwindcss(),
+    tanstackStart(),
+    viteReact(),
+    babel({ presets: [reactCompilerPreset()] }),
+  ]),
+});
+
+export default config;
