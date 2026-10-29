@@ -13,5 +13,6 @@
 * [Datacite Registration Demo](datacite-registration-poc) - Bare bones application that registers IGSNs at Datacite
 ---
 
-Andre Castro (DANS) </br>
+Andre Castro, Daan Janssen </br>
+(DANS) </br>
 2026
