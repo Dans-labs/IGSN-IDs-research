@@ -10,9 +10,15 @@ import { registerIgsn } from '#/api/igsn.functions'
 import { fieldContext, formContext } from '#/components/form-context'
 import { FormTextField, TypeAheadField } from '#/components/Input'
 import { useRor } from '#/hooks/typeahead'
+import GeoField from '#/components/GeoField'
+import type { GeoFeature } from '#/components/GeoField'
 
 const { useAppForm } = createFormHook({
-  fieldComponents: { TextField: FormTextField, TypeAhead: TypeAheadField },
+  fieldComponents: {
+    TextField: FormTextField,
+    TypeAhead: TypeAheadField,
+    GeoField,
+  },
   formComponents: { FormButton },
   fieldContext,
   formContext,
@@ -32,6 +38,7 @@ export default function Form() {
       titles: [{ title: '' }],
       publisher: { name: '', identifier: '' },
       publicationYear: new Date().getFullYear(),
+      locations: [] as Array<GeoFeature>,
     },
     validators: {
       onChange: schema,
@@ -122,6 +129,10 @@ export default function Form() {
         {(field) => (
           <field.TextField label={m.publicationYear()} type="number" />
         )}
+      </form.AppField>
+
+      <form.AppField name="locations">
+        {(field) => <field.GeoField label="Locations" />}
       </form.AppField>
 
       <form.AppForm>

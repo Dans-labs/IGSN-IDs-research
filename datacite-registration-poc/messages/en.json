@@ -20,5 +20,11 @@
   "clear": "Clear",
   "noResults": "No results found",
   "loading": "Loading",
-  "startTyping": "Start typing to search"
+  "startTyping": "Start typing to search",
+  "addPoint": "Add Point",
+  "addBoundingBox": "Add Bounding Box",
+  "select": "Select",
+  "draw": "Draw",
+  "point": "Point",
+  "bbox": "BBox"
 }

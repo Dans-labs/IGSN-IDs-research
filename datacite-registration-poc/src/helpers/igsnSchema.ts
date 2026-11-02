@@ -27,6 +27,22 @@ export type igsnForm = {
   }
 }
 
+const lng = z.number().min(-180).max(180)
+const lat = z.number().min(-90).max(90)
+const geoFeature = z.discriminatedUnion('type', [
+  z.object({ id: z.string(), type: z.literal('point'), lng, lat }),
+  z
+    .object({
+      id: z.string(),
+      type: z.literal('bbox'),
+      west: lng,
+      east: lng,
+      south: lat,
+      north: lat,
+    })
+    .refine((b) => b.south <= b.north, 'south must be ≤ north'),
+])
+
 export const schema = z.object({
   url: z.string().min(1),
   creators: z
@@ -45,4 +61,5 @@ export const schema = z.object({
     .int()
     .min(1900)
     .max(new Date().getFullYear() + 1),
+  locations: z.array(geoFeature),
 })
