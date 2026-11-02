@@ -1,8 +1,8 @@
 import { createServerFn } from '@tanstack/react-start'
-import { schema } from '#/helpers/igsnSchema'
+import { payloadSchema as p } from '#/helpers/igsnSchema'
 
 export const registerIgsn = createServerFn({ method: 'POST' })
-  .validator(schema)
+  .validator(p)
   .handler(async ({ data }) => {
     const formattedData = {
       data: {

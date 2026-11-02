@@ -2,7 +2,7 @@ import { createFormHook } from '@tanstack/react-form'
 import type { AnyFieldApi } from '@tanstack/react-form'
 import { FormButton } from '#/components/Buttons'
 import { m } from '#/paraglide/messages'
-import { schema } from '#/helpers/igsnSchema'
+import { payloadSchema, schema, toGeoLocations } from '#/helpers/igsnSchema'
 import { useState } from 'react'
 import type { ComponentType, ReactNode } from 'react'
 import { useServerFn } from '@tanstack/react-start'
@@ -38,7 +38,7 @@ export default function Form() {
       titles: [{ title: '' }],
       publisher: { name: '', identifier: '' },
       publicationYear: new Date().getFullYear(),
-      locations: [] as Array<GeoFeature>,
+      geoLocations: [] as Array<GeoFeature>,
     },
     validators: {
       onChange: schema,
@@ -54,8 +54,12 @@ export default function Form() {
       setError(null)
       setResult(null)
       try {
-        const parsed = schema.parse(value)
-        setResult(await register({ data: parsed }))
+        const { geoLocations, ...rest } = schema.parse(value)
+        const payload = payloadSchema.parse({
+          ...rest,
+          geoLocations: toGeoLocations(geoLocations),
+        })
+        setResult(await register({ data: payload }))
       } catch (e) {
         setError(e instanceof Error ? e.message : 'Something went wrong')
       }
@@ -131,7 +135,7 @@ export default function Form() {
         )}
       </form.AppField>
 
-      <form.AppField name="locations">
+      <form.AppField name="geoLocations">
         {(field) => <field.GeoField label="Locations" />}
       </form.AppField>
 
