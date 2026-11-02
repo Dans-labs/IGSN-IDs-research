@@ -8,10 +8,11 @@ import type { ComponentType, ReactNode } from 'react'
 import { useServerFn } from '@tanstack/react-start'
 import { registerIgsn } from '#/api/igsn.functions'
 import { fieldContext, formContext } from '#/components/form-context'
-import { FormTextField } from '#/components/Input'
+import { FormTextField, TypeAheadField } from '#/components/Input'
+import { useRor } from '#/hooks/typeahead'
 
 const { useAppForm } = createFormHook({
-  fieldComponents: { TextField: FormTextField },
+  fieldComponents: { TextField: FormTextField, TypeAhead: TypeAheadField },
   formComponents: { FormButton },
   fieldContext,
   formContext,
@@ -95,14 +96,24 @@ export default function Form() {
       </form.AppField>
 
       <form.AppField name="publisher.name">
-        {(field) => <field.TextField label={`${m.publisher()} ${m.name()}`} />}
+        {(field) => (
+          <field.TypeAhead
+            label={`${m.publisher()} ${m.name()}`}
+            useTypeAhead={useRor}
+            onItemSelect={(item) =>
+              form.setFieldValue('publisher.identifier', item?.value ?? '')
+            }
+            valueSelector="label"
+          />
+        )}
       </form.AppField>
 
       <form.AppField name="publisher.identifier">
         {(field) => (
           <field.TextField
             label={`${m.publisher()} ${m.identifier()}`}
-            placeholder="ROR typeahead field..."
+            placeholder="ROR identifier"
+            disabled
           />
         )}
       </form.AppField>

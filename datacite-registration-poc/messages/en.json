@@ -16,5 +16,9 @@
   "submit": "Submit",
   "registerAnIGSN": "Register an IGSN",
   "inValid": "Invalid input",
-  "success": "IGSN succesfully registered on Datacite.org with id {id}"
+  "success": "IGSN succesfully registered on Datacite.org with id {id}",
+  "clear": "Clear",
+  "noResults": "No results found",
+  "loading": "Loading",
+  "startTyping": "Start typing to search"
 }
