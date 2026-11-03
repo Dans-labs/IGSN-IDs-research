@@ -8,7 +8,7 @@ type FormButtonProps = Button.Props & {
 export function FormButton({ text, className, ...props }: FormButtonProps) {
   return (
     <Button
-      className={`bg-teal-700 text-white rounded-sm py-1 px-4 cursor-pointer ${className ?? ''}`}
+      className={`bg-teal-700 text-white rounded-sm py-1 px-4 cursor-pointer hover:bg-teal-800 ${className ?? ''}`}
       {...props}
     >
       {text}

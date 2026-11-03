@@ -5,7 +5,7 @@ export const Route = createFileRoute('/')({ component: Home })
 
 function Home() {
   return (
-    <div className="p-8">
+    <div className="p-8 flex justify-center">
       <Form />
     </div>
   )

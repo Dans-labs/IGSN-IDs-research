@@ -14,6 +14,7 @@
   "identifier": "Identifier",
   "publicationYear": "Publication Year",
   "submit": "Submit",
+  "next": "Next",
   "registerAnIGSN": "Register an IGSN",
   "inValid": "Invalid input",
   "success": "IGSN succesfully registered on Datacite.org with id {id}",
@@ -26,5 +27,8 @@
   "select": "Select",
   "draw": "Draw",
   "point": "Point",
-  "bbox": "BBox"
+  "bbox": "Box",
+  "mapDescription": "Use the controls in the top right corner to select and draw points or bounding boxes on the map.",
+  "errorSubmitting": "Could not submit the form",
+  "errorSubmittingReason": "Not all required fields are filled correctly"
 }

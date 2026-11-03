@@ -12,6 +12,7 @@ import { FormTextField, TypeAheadField } from '#/components/Input'
 import { useRor } from '#/hooks/typeahead'
 import GeoField from '#/components/GeoField'
 import type { GeoFeature } from '#/components/GeoField'
+import { Toast } from '@base-ui/react/toast'
 
 const { useAppForm } = createFormHook({
   fieldComponents: {
@@ -30,6 +31,7 @@ export default function Form() {
     ReturnType<typeof register>
   > | null>(null)
   const [error, setError] = useState<string | null>(null)
+  const toastManager = Toast.useToastManager()
 
   const form = useAppForm({
     defaultValues: {
@@ -49,6 +51,14 @@ export default function Form() {
         formErrors: formApi.state.errors,
         fieldErrors: formApi.state.fieldMeta,
       })
+      toastManager.add({
+        title: m.errorSubmitting(),
+        description: m.errorSubmittingReason({
+          formErrors: formApi.state.errors,
+          fieldErrors: formApi.state.fieldMeta,
+        }),
+        type: 'error',
+      })
     },
     onSubmit: async ({ value }) => {
       setError(null)
@@ -60,11 +70,24 @@ export default function Form() {
           geoLocations: toGeoLocations(geoLocations),
         })
         setResult(await register({ data: payload }))
+        toastManager.add({
+          title: m.success({ id: result?.data.id ?? '' }),
+          type: 'success',
+        })
       } catch (e) {
         setError(e instanceof Error ? e.message : 'Something went wrong')
       }
     },
   })
+
+  const sections = [
+    { value: 'essential', label: 'Essential data', component: EssentialData },
+    {
+      value: 'additional',
+      label: 'Additional data',
+      component: AdditionalData,
+    },
+  ]
 
   return (
     <form
@@ -77,6 +100,106 @@ export default function Form() {
     >
       <h1>{m.registerAnIGSN()}</h1>
 
+      <div className="max-w-xl w-lg">
+        {sections.map((s) => (
+          <div
+            className="mb-4 pt-2 border-t border-gray-200 flex flex-col gap-2"
+            key={s.value}
+          >
+            <h2>{s.label}</h2>
+            <s.component form={form} />
+          </div>
+        ))}
+      </div>
+
+      <form.AppForm>
+        <form.FormButton type="submit" text={m.submit()} />
+      </form.AppForm>
+
+      {error && (
+        <p role="alert" className="text-sm text-red-500">
+          {error}
+        </p>
+      )}
+      {result && (
+        <p className="text-green-500">{m.success({ id: result.data.id })}</p>
+      )}
+    </form>
+  )
+}
+
+type FieldConfig = {
+  name: SimpleMessageKey
+  type: 'TextField' // key of fieldComponents in createFormHook
+}
+
+type SimpleMessageKey = {
+  [K in keyof typeof m]: {} extends Parameters<(typeof m)[K]>[0] ? K : never
+}[keyof typeof m]
+
+type AppFormLike = {
+  AppField: ComponentType<{
+    name: any
+    children: (field: any) => ReactNode
+  }>
+  setFieldValue: (name: any, value: any) => void
+}
+
+function FieldArray({
+  form,
+  title,
+  field,
+  fieldConfig,
+}: {
+  form: AppFormLike
+  title: string
+  field: AnyFieldApi
+  fieldConfig: Array<FieldConfig>
+}) {
+  const items = field.state.value as Array<Record<string, string>>
+
+  return (
+    <div className="mb-2">
+      <h3>{title}</h3>
+      {items.map((_, i) => (
+        <div key={i} className="border border-gray-200 rounded-sm p-2 mb-2">
+          {fieldConfig.map((config) => (
+            <form.AppField
+              key={config.name}
+              name={`${field.name}[${i}].${config.name}`}
+            >
+              {(subField) => {
+                const Component = subField[config.type]
+                return <Component label={`${m[config.name]()} ${i + 1}`} />
+              }}
+            </form.AppField>
+          ))}
+          {i > 0 && (
+            <FormButton
+              onClick={() => field.removeValue(i)}
+              type="button"
+              text={m.remove()}
+              className="mt-2"
+            />
+          )}
+        </div>
+      ))}
+      <FormButton
+        onClick={() =>
+          field.pushValue(
+            Object.fromEntries(fieldConfig.map((c) => [c.name, ''])),
+          )
+        }
+        type="button"
+        text={m.addMore()}
+      />
+    </div>
+  )
+}
+
+function EssentialData({ form }: { form: AppFormLike }) {
+  return (
+    <>
       <form.AppField name="url">
         {(field) => <field.TextField label={m.url()} />}
       </form.AppField>
@@ -111,7 +234,7 @@ export default function Form() {
           <field.TypeAhead
             label={`${m.publisher()} ${m.name()}`}
             useTypeAhead={useRor}
-            onItemSelect={(item) =>
+            onItemSelect={(item: { value: string } | null) =>
               form.setFieldValue('publisher.identifier', item?.value ?? '')
             }
             valueSelector="label"
@@ -134,91 +257,16 @@ export default function Form() {
           <field.TextField label={m.publicationYear()} type="number" />
         )}
       </form.AppField>
-
-      <form.AppField name="geoLocations">
-        {(field) => <field.GeoField label="Locations" />}
-      </form.AppField>
-
-      <form.AppForm>
-        <form.FormButton type="submit" text={m.submit()} />
-      </form.AppForm>
-
-      {error && (
-        <p role="alert" className="text-sm text-red-500">
-          {error}
-        </p>
-      )}
-      {result && (
-        <p className="text-green-500">{m.success({ id: result.data.id })}</p>
-      )}
-    </form>
+    </>
   )
 }
 
-type FieldConfig = {
-  name: SimpleMessageKey
-  type: 'TextField' // key of fieldComponents in createFormHook
-}
-
-type SimpleMessageKey = {
-  [K in keyof typeof m]: {} extends Parameters<(typeof m)[K]>[0] ? K : never
-}[keyof typeof m]
-
-type AppFormLike = {
-  AppField: ComponentType<{
-    name: any
-    children: (field: any) => ReactNode
-  }>
-}
-
-function FieldArray({
-  form,
-  title,
-  field,
-  fieldConfig,
-}: {
-  form: AppFormLike
-  title: string
-  field: AnyFieldApi
-  fieldConfig: Array<FieldConfig>
-}) {
-  const items = field.state.value as Array<Record<string, string>>
-
+function AdditionalData({ form }: { form: AppFormLike }) {
   return (
-    <div>
-      <div>{title}</div>
-      {items.map((_, i) => (
-        <div key={i} className="border border-gray-200 rounded-sm p-2 mb-2">
-          {fieldConfig.map((config) => (
-            <form.AppField
-              key={config.name}
-              name={`${field.name}[${i}].${config.name}`}
-            >
-              {(subField) => {
-                const Component = subField[config.type]
-                return <Component label={`${m[config.name]()} ${i + 1}`} />
-              }}
-            </form.AppField>
-          ))}
-          {i > 0 && (
-            <FormButton
-              onClick={() => field.removeValue(i)}
-              type="button"
-              text={m.remove()}
-              className="mt-2"
-            />
-          )}
-        </div>
-      ))}
-      <FormButton
-        onClick={() =>
-          field.pushValue(
-            Object.fromEntries(fieldConfig.map((c) => [c.name, ''])),
-          )
-        }
-        type="button"
-        text={m.addMore()}
-      />
-    </div>
+    <>
+      <form.AppField name="geoLocations">
+        {(field) => <field.GeoField label="Locations" />}
+      </form.AppField>
+    </>
   )
 }

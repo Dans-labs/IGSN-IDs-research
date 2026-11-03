@@ -180,36 +180,36 @@ export default function GeoField({ label }: { label: string }) {
   }, [map, features, draw])
 
   // manual add: drops the shape into the current view so it is visible right away
-  const add = (type: GeoFeature['type']) => {
-    if (!map) return
-    const id = crypto.randomUUID()
-    const { lng, lat } = map.getCenter()
-    const [[w, s], [e, n]] = map.getBounds().toArray()
-    const dx = (e - w) / 4
-    const dy = (n - s) / 4
-    commit([
-      ...features,
-      type === 'point'
-        ? { id, type, lng: r(lng), lat: r(lat) }
-        : {
-            id,
-            type,
-            west: r(w + dx),
-            south: r(s + dy),
-            east: r(e - dx),
-            north: r(n - dy),
-          },
-    ])
-  }
+  // const add = (type: GeoFeature['type']) => {
+  //   if (!map) return
+  //   const id = crypto.randomUUID()
+  //   const { lng, lat } = map.getCenter()
+  //   const [[w, s], [e, n]] = map.getBounds().toArray()
+  //   const dx = (e - w) / 4
+  //   const dy = (n - s) / 4
+  //   commit([
+  //     ...features,
+  //     type === 'point'
+  //       ? { id, type, lng: r(lng), lat: r(lat) }
+  //       : {
+  //           id,
+  //           type,
+  //           west: r(w + dx),
+  //           south: r(s + dy),
+  //           east: r(e - dx),
+  //           north: r(n - dy),
+  //         },
+  //   ])
+  // }
 
   const update = (id: string, patch: Record<string, number>) =>
     commit(features.map((f) => (f.id === id ? { ...f, ...patch } : f)))
 
   return (
-    <div className="flex flex-col gap-1">
+    <div className="flex flex-col gap-1 mb-2">
       <span className="text-xs">{label}</span>
 
-      <div className="relative h-96 border border-neutral-900">
+      <div className="relative h-96 border border-gray-300 rounded-sm overflow-hidden">
         <GLMap
           initialViewState={{ longitude: 4.34, latitude: 52.08, zoom: 6 }}
           mapStyle="https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json"
@@ -218,15 +218,14 @@ export default function GeoField({ label }: { label: string }) {
           <NavigationControl position="top-left" />
         </GLMap>
 
-        <div className="absolute right-2 top-2 flex flex-col bg-white/80 border border-gray-300 rounded-sm">
-          <h3 className="text-sm p-1">{m.draw()}</h3>
-          {TOOLS.map(([m, text, Icon]) => (
+        <div className="absolute right-2 top-2 flex flex-col bg-white/80 border border-gray-300 rounded-sm shadow-sm">
+          {TOOLS.map(([m, text, Icon], i) => (
             <BaseButton
               key={m}
               type="button"
               disabled={!map}
               aria-pressed={mode === m}
-              className={`aria-pressed:bg-gray-300 p-2 cursor-pointer`}
+              className={`aria-pressed:bg-gray-200 px-3 py-2 cursor-pointer hover:bg-gray-100 ${i === TOOLS.length - 1 ? '' : 'border-b border-gray-300'}`}
               onClick={() => {
                 draw.changeMode(m as 'simple_select')
                 setMode(m) // highlight right away; draw.modechange resets it when draw switches itself
@@ -238,6 +237,8 @@ export default function GeoField({ label }: { label: string }) {
           ))}
         </div>
       </div>
+
+      <p className="text-xs text-gray-500">{m.mapDescription()}</p>
 
       <ul className="flex flex-col gap-2">
         {features.map((f) => (
@@ -262,6 +263,8 @@ export default function GeoField({ label }: { label: string }) {
         ))}
       </ul>
 
+      {/* 
+      // Manual controls for adding points and bounding boxes
       <div className="flex gap-2">
         <Button
           disabled={!map}
@@ -273,7 +276,7 @@ export default function GeoField({ label }: { label: string }) {
           onClick={() => add('bbox')}
           text={m.addBoundingBox()}
         />
-      </div>
+      </div> */}
 
       {field.state.meta.errors.map((e, i) => (
         <p key={i} role="alert" className="text-sm text-red-500">
