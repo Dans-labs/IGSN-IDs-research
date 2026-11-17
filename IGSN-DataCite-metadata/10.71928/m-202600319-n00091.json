@@ -1,0 +1,255 @@
+{
+    "id": "https://doi.org/10.71928/m-202600319-n00091",
+    "doi": "10.71928/M-202600319-N00091",
+    "url": "https://digiarchiv.aiscr.cz/id/M-202600319-N00091",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "archaeological object",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Lu\u017en\u00fd, Martin",
+            "nameType": "Personal",
+            "givenName": "Martin",
+            "familyName": "Lu\u017en\u00fd",
+            "affiliation": [
+                {
+                    "name": "Moravsk\u00e9 zemsk\u00e9 muzeum",
+                    "schemeUri": "https://ror.org/",
+                    "affiliationIdentifier": "https://ror.org/01jptvt03",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://api.aiscr.cz/id/",
+                    "nameIdentifier": "https://api.aiscr.cz/id/OS-008225",
+                    "nameIdentifierScheme": "AMCR"
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "lang": "en",
+            "title": "AMCR M-202600319-N00091 \u2013 clasp (bronze), La T\u00e8ne Period"
+        },
+        {
+            "lang": "cs",
+            "title": "AMCR M-202600319-N00091 \u2013 z\u00e1pona (bronz), doba lat\u00e9nsk\u00e1",
+            "titleType": "TranslatedTitle"
+        }
+    ],
+    "publisher": {
+        "lang": "en",
+        "name": "Archaeological Map of the Czech Republic",
+        "schemeUri": "https://www.re3data.org/repository/",
+        "publisherIdentifier": "https://www.re3data.org/repository/r3d100013576",
+        "publisherIdentifierScheme": "re3data"
+    },
+    "container": {},
+    "subjects": [
+        {
+            "lang": "en",
+            "subject": "History and Archaeology",
+            "valueUri": "http://dd.eionet.europa.eu/vocabulary/eurostat/fos07/FOS601",
+            "schemeUri": "http://dd.eionet.europa.eu/vocabulary/eurostat/fos07/",
+            "subjectScheme": "Field of science and technology classification (FOS 2007)",
+            "classificationCode": "FOS601"
+        },
+        {
+            "lang": "en",
+            "subject": "La T\u00e8ne Period",
+            "valueUri": "https://api.aiscr.cz/id/HES-000254",
+            "schemeUri": "https://api.aiscr.cz/id/",
+            "subjectScheme": "AMCR",
+            "classificationCode": "HES-000254"
+        },
+        {
+            "lang": "en",
+            "subject": "clasp",
+            "valueUri": "https://api.aiscr.cz/id/HES-000637",
+            "schemeUri": "https://api.aiscr.cz/id/",
+            "subjectScheme": "AMCR",
+            "classificationCode": "HES-000637"
+        },
+        {
+            "lang": "en",
+            "subject": "bronze",
+            "valueUri": "https://api.aiscr.cz/id/HES-000966",
+            "schemeUri": "https://api.aiscr.cz/id/",
+            "subjectScheme": "AMCR",
+            "classificationCode": "HES-000966"
+        }
+    ],
+    "contributors": [
+        {
+            "lang": "en",
+            "name": "Archaeological Information System of the Czech Republic",
+            "nameType": "Organizational",
+            "contributorType": "HostingInstitution",
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://ror.org/",
+                    "nameIdentifier": "https://ror.org/01a7rqj69",
+                    "nameIdentifierScheme": "ROR"
+                }
+            ]
+        },
+        {
+            "name": "\u010ci\u017em\u00e1\u0159ov\u00e1, Hana",
+            "nameType": "Personal",
+            "givenName": "Hana",
+            "familyName": "\u010ci\u017em\u00e1\u0159ov\u00e1",
+            "affiliation": [
+                {
+                    "name": "Moravsk\u00e9 zemsk\u00e9 muzeum",
+                    "schemeUri": "https://ror.org/",
+                    "affiliationIdentifier": "https://ror.org/01jptvt03",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "contributorType": "ProjectLeader",
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://api.aiscr.cz/id/",
+                    "nameIdentifier": "https://api.aiscr.cz/id/OS-004748",
+                    "nameIdentifierScheme": "AMCR"
+                }
+            ]
+        },
+        {
+            "lang": "cs",
+            "name": "Moravsk\u00e9 zemsk\u00e9 muzeum",
+            "nameType": "Organizational",
+            "contributorType": "DataCurator",
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://ror.org/",
+                    "nameIdentifier": "https://ror.org/01jptvt03",
+                    "nameIdentifierScheme": "ROR"
+                }
+            ]
+        }
+    ],
+    "dates": [
+        {
+            "date": "2025-12-29",
+            "dateType": "Collected"
+        },
+        {
+            "date": "2026-02-26T09:34:01+0000",
+            "dateType": "Created"
+        },
+        {
+            "date": "2026-02-26T09:35:15+0000",
+            "dateType": "Submitted"
+        },
+        {
+            "date": "2026-09-16T10:34:04+0000",
+            "dateType": "Accepted"
+        },
+        {
+            "date": "2026-09-18T15:54:59+0000",
+            "dateType": "Issued"
+        },
+        {
+            "date": "-450/-31",
+            "dateType": "Coverage",
+            "dateInformation": "La T\u00e8ne Period"
+        }
+    ],
+    "publicationYear": 2026,
+    "language": "cs",
+    "identifiers": [
+        {
+            "identifier": "M-202600319-N00091",
+            "identifierType": "Local accession number"
+        },
+        {
+            "identifier": "18-5/26",
+            "identifierType": "Find inventory number"
+        }
+    ],
+    "sizes": [],
+    "formats": [],
+    "version": "2026-09-18T15:54:59+0000",
+    "rightsList": [
+        {
+            "lang": "en",
+            "rights": "Creative Commons Attribution Non Commercial 4.0 International",
+            "rightsUri": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+            "schemeUri": "https://spdx.org/licenses/",
+            "rightsIdentifier": "cc-by-nc-4.0",
+            "rightsIdentifierScheme": "SPDX"
+        }
+    ],
+    "descriptions": [
+        {
+            "lang": "en",
+            "description": "Collected by field survey.",
+            "descriptionType": "Methods"
+        },
+        {
+            "lang": "cs",
+            "description": "Fragment bronzov\u00e9 z\u00e1pony \u2013 \u010d\u00e1ste\u010dn\u011b odlomen\u00fd krou\u017eek, z n\u011bho\u017e vyb\u00edh\u00e1 ty\u010dinka troj\u00faheln\u00edkov\u00e9ho pr\u016f\u0159ezu, odd\u011blena p\u0159\u00ed\u010dn\u00fdm \u017eebrem, zadn\u00ed strana ploch\u00e1. D\u00e9lka 37,5 mm, \u0161\u00ed\u0159ka 22,5 mm.",
+            "descriptionType": "Abstract"
+        },
+        {
+            "lang": "cs",
+            "description": "Finding context: arable topsoil",
+            "descriptionType": "Abstract"
+        },
+        {
+            "lang": "cs",
+            "description": "Finding depth: 5 cm",
+            "descriptionType": "Abstract"
+        },
+        {
+            "lang": "cs",
+            "description": "Number of finds: 1",
+            "descriptionType": "Abstract"
+        }
+    ],
+    "geoLocations": [
+        {
+            "geoLocationPlace": "Prost\u011bjov, Olomouck\u00fd kraj, Czech Republic"
+        }
+    ],
+    "relatedIdentifiers": [
+        {
+            "schemeUri": "http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd",
+            "schemeType": "XSD",
+            "relationType": "HasMetadata",
+            "relatedIdentifier": "https://api.aiscr.cz/id/M-202600319-N00091",
+            "relatedIdentifierType": "URL",
+            "relatedMetadataScheme": "OAI-PMH"
+        },
+        {
+            "relationType": "IsDocumentedBy",
+            "relatedIdentifier": "https://digiarchiv.aiscr.cz/id/M-202600319-N00091/file/99822cc3-3aab-46b3-87fa-11e0717c3d77",
+            "resourceTypeGeneral": "Image",
+            "relatedIdentifierType": "URL"
+        },
+        {
+            "relationType": "IsDocumentedBy",
+            "relatedIdentifier": "https://digiarchiv.aiscr.cz/id/M-202600319-N00091/file/aa6aa374-18d8-47aa-af7d-8032eeb3f41c",
+            "resourceTypeGeneral": "Image",
+            "relatedIdentifierType": "URL"
+        },
+        {
+            "relationType": "IsPartOf",
+            "relatedIdentifier": "https://digiarchiv.aiscr.cz/id/M-202600319",
+            "resourceTypeGeneral": "Project",
+            "relatedIdentifierType": "URL"
+        }
+    ],
+    "providerId": "arch",
+    "clientId": "arch.igsn",
+    "agency": "datacite",
+    "state": "findable"
+}

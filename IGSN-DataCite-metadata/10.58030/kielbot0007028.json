@@ -1,0 +1,155 @@
+{
+    "id": "https://doi.org/10.58030/kielbot0007028",
+    "doi": "10.58030/KIELBOT0007028",
+    "url": "https://igsn.uni-kiel.de/sample/10.58030/KIELBOT0007028?url=https%3A%2F%2Fkiel.jacq.org%2FKIEL0007028",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Material sample",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Ober, Dietrich",
+            "nameType": "Personal",
+            "givenName": "Dietrich",
+            "familyName": "Ober",
+            "affiliation": [
+                {
+                    "name": "Kiel University",
+                    "schemeUri": "https://ror.org/",
+                    "affiliationIdentifier": "https://ror.org/04v76ef78",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://orcid.org/",
+                    "nameIdentifier": "https://orcid.org/0000-0002-7372-4531",
+                    "nameIdentifierScheme": "ORCID"
+                },
+                {
+                    "schemeUri": "https://d-nb.info/gnd/",
+                    "nameIdentifier": "https://d-nb.info/gnd/115879242",
+                    "nameIdentifierScheme": "GND"
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "title": "Inga umbellifera (Vahl) Steud. (Herbarium KIEL)"
+        }
+    ],
+    "publisher": {
+        "name": "Kiel University",
+        "schemeUri": "https://ror.org/",
+        "publisherIdentifier": "https://ror.org/04v76ef78",
+        "publisherIdentifierScheme": "ROR"
+    },
+    "container": {},
+    "subjects": [],
+    "contributors": [
+        {
+            "name": "Ober, Dietrich",
+            "nameType": "Personal",
+            "givenName": "Dietrich",
+            "familyName": "Ober",
+            "affiliation": [
+                {
+                    "name": "Kiel University",
+                    "schemeUri": "https://ror.org/",
+                    "affiliationIdentifier": "https://ror.org/04v76ef78",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "contributorType": "ContactPerson",
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://orcid.org/",
+                    "nameIdentifier": "https://orcid.org/0000-0002-7372-4531",
+                    "nameIdentifierScheme": "ORCID"
+                },
+                {
+                    "schemeUri": "https://d-nb.info/gnd/",
+                    "nameIdentifier": "https://d-nb.info/gnd/115879242",
+                    "nameIdentifierScheme": "GND"
+                }
+            ]
+        },
+        {
+            "name": "Poeppig, Eduard Friedrich",
+            "nameType": "Personal",
+            "givenName": "Eduard Friedrich",
+            "familyName": "Poeppig",
+            "contributorType": "DataCollector",
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://d-nb.info/gnd/",
+                    "nameIdentifier": "https://d-nb.info/gnd/119551853",
+                    "nameIdentifierScheme": "GND"
+                },
+                {
+                    "schemeUri": "https://viaf.org/viaf/",
+                    "nameIdentifier": "https://viaf.org/viaf/5058621",
+                    "nameIdentifierScheme": "VIAF"
+                },
+                {
+                    "schemeUri": "http://www.wikidata.org/entity/",
+                    "nameIdentifier": "http://www.wikidata.org/entity/Q61501",
+                    "nameIdentifierScheme": "Wikidata"
+                }
+            ]
+        }
+    ],
+    "dates": [
+        {
+            "date": "2022-07-29T09:36:50",
+            "dateType": "Submitted"
+        }
+    ],
+    "publicationYear": 2022,
+    "identifiers": [
+        {
+            "identifier": "10273/KIELBOT0007028",
+            "identifierType": "IGSN"
+        }
+    ],
+    "descriptions": [
+        {
+            "description": "Specimen 0007028 of Herbarium KIEL.",
+            "descriptionType": "Abstract"
+        },
+        {
+            "description": "Genus: Inga",
+            "descriptionType": "TechnicalInfo"
+        },
+        {
+            "description": "Species: umbellifera",
+            "descriptionType": "TechnicalInfo"
+        },
+        {
+            "description": "Family: Mimosaceae",
+            "descriptionType": "TechnicalInfo"
+        }
+    ],
+    "geoLocations": [
+        {
+            "geoLocationPlace": "Ega. Brasiliae amazonicae, Brazil"
+        }
+    ],
+    "relatedIdentifiers": [
+        {
+            "relationType": "IsIdenticalTo",
+            "relatedIdentifier": "10273/KIELBOT0007028",
+            "relatedIdentifierType": "IGSN"
+        }
+    ],
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "providerId": "fnma",
+    "clientId": "fnma.xssojy",
+    "agency": "datacite",
+    "state": "findable"
+}

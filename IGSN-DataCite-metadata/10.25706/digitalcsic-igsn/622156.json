@@ -1,0 +1,61 @@
+{
+    "id": "https://doi.org/10.25706/digitalcsic-igsn/622156",
+    "doi": "10.25706/DIGITALCSIC-IGSN/622156",
+    "url": "http://hdl.handle.net/10261/418029",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Fernandez-Turiel, J. L."
+        },
+        {
+            "name": "P\u00e9rez-Torrado, Francisco J."
+        },
+        {
+            "name": "Rodr\u00edguez-Gonz\u00e1lez, A."
+        },
+        {
+            "name": "Saavedra, J."
+        }
+    ],
+    "titles": [
+        {
+            "title": "TB-03"
+        }
+    ],
+    "publisher": {
+        "name": "DIGITAL.CSIC; CSIC - Instituto de Geociencias Barcelona (GEO3BCN)"
+    },
+    "container": {},
+    "subjects": [
+        {
+            "subject": "Tephra"
+        },
+        {
+            "subject": "Sedimentary&gt;Volcaniclastic"
+        },
+        {
+            "subject": "White ash"
+        }
+    ],
+    "publicationYear": 2026,
+    "identifiers": [],
+    "geoLocations": [
+        {
+            "geoLocationPlace": "Cantera \u00e1ridos junto a Ruta 40. nivel superior, Argentina",
+            "geoLocationPoint": {
+                "pointLatitude": -26,
+                "pointLongitude": -65
+            }
+        }
+    ],
+    "providerId": "csic",
+    "clientId": "csic.digital-igsn",
+    "agency": "datacite",
+    "state": "findable"
+}

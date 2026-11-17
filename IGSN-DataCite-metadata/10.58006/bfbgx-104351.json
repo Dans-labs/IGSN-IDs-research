@@ -1,0 +1,70 @@
+{
+    "id": "https://doi.org/10.58006/bfbgx-104351",
+    "doi": "10.58006/BFBGX-104351",
+    "url": "https://campagnes.flotteoceanographique.fr/prl?id=BFBGX-104351",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Material sample",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "PASTOURET, Leo",
+            "nameType": "Personal",
+            "givenName": "Leo",
+            "familyName": "PASTOURET",
+            "affiliation": [
+                {
+                    "name": "Ifremer, Centre de Bretagne, FRANCE"
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "title": "Core GEOMANCHE76/1-KS12"
+        }
+    ],
+    "publisher": {
+        "name": "Ifremer"
+    },
+    "container": {},
+    "subjects": [],
+    "dates": [
+        {
+            "date": "1976-02-20",
+            "dateType": "Collected"
+        }
+    ],
+    "publicationYear": 2025,
+    "identifiers": [],
+    "descriptions": [
+        {
+            "description": "Core GEOMANCHE76/1-KS12 collected during GEOMANCHE 76/1 - CH66 cruise (sampling method: Kullenberg corer)",
+            "descriptionType": "Abstract"
+        }
+    ],
+    "geoLocations": [
+        {
+            "geoLocationPoint": {
+                "pointLatitude": 47.4716667,
+                "pointLongitude": -8.3216667
+            }
+        }
+    ],
+    "relatedIdentifiers": [
+        {
+            "relationType": "IsCitedBy",
+            "relatedIdentifier": "10.17600/76001111",
+            "relatedIdentifierType": "DOI"
+        }
+    ],
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "providerId": "euvi",
+    "clientId": "euvi.ifremerigsn",
+    "agency": "datacite",
+    "state": "findable"
+}

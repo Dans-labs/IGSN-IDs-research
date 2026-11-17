@@ -1,0 +1,120 @@
+{
+    "id": "https://doi.org/10.57977/cnrs0000033144",
+    "doi": "10.57977/CNRS0000033144",
+    "url": "https://igsn.cnrs.fr/samples/CNRS0000033144",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "rock",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Ali Bouhifd",
+            "nameType": "Personal",
+            "affiliation": [
+                {
+                    "name": "Centre National de la Recherche Scientifique (CNRS)",
+                    "schemeUri": "https://ror.org",
+                    "affiliationIdentifier": "https://ror.org/02feahw73",
+                    "affiliationIdentifierScheme": "ROR"
+                },
+                {
+                    "name": "Observatoire de physique du globe de Clermont-Ferrand (OPGC)"
+                },
+                {
+                    "name": "Laboratoire Magmas et volcans (LMV)"
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "title": "SK-WA03"
+        }
+    ],
+    "publisher": {
+        "name": "OTELo",
+        "schemeUri": "https://ror.org",
+        "publisherIdentifier": "https://ror.org/02cyw3861",
+        "publisherIdentifierScheme": "ROR"
+    },
+    "container": {},
+    "subjects": [
+        {
+            "subject": "intermediate",
+            "schemeUri": "urn:otelo:vocabulary:material",
+            "subjectScheme": "otelo:material"
+        },
+        {
+            "subject": "research_project_sample",
+            "schemeUri": "urn:otelo:vocabulary:scientificContext",
+            "subjectScheme": "otelo:scientificContext"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Ali Bouhifd",
+            "nameType": "Personal",
+            "contributorType": "DataCollector"
+        }
+    ],
+    "dates": [
+        {
+            "date": "2026-09-16T10:38:55.263Z",
+            "dateType": "Created"
+        },
+        {
+            "date": "2026-09-16T10:38:55.263Z",
+            "dateType": "Available"
+        },
+        {
+            "date": "0001-01-01",
+            "dateType": "Collected"
+        }
+    ],
+    "publicationYear": 2026,
+    "language": "en",
+    "identifiers": [
+        {
+            "identifier": "urn:uuid:10c6a5ac-5a80-49d1-8df0-f3ceedf25958",
+            "identifierType": "UUID"
+        }
+    ],
+    "sizes": [],
+    "rightsList": [
+        {
+            "rights": "Creative Commons Attribution 4.0 International",
+            "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "schemeUri": "https://spdx.org/licenses/",
+            "rightsIdentifier": "cc-by-4.0",
+            "rightsIdentifierScheme": "SPDX"
+        }
+    ],
+    "descriptions": [],
+    "geoLocations": [
+        {
+            "geoLocationPlace": "Tjakastad, Mpumalanga",
+            "geoLocationPoint": {
+                "pointLatitude": -25.83316667,
+                "pointLongitude": 30.94416667
+            }
+        }
+    ],
+    "fundingReferences": [],
+    "relatedIdentifiers": [
+        {
+            "relationType": "Other",
+            "relatedIdentifier": "https://doi.org/10.70675/1be6da2bze0afz48ecz8216z56ec24cd572d",
+            "resourceTypeGeneral": "Other",
+            "relatedIdentifierType": "URL"
+        }
+    ],
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "providerId": "jbru",
+    "clientId": "jbru.dtinsu",
+    "agency": "datacite",
+    "state": "findable"
+}

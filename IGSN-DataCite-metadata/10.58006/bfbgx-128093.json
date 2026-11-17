@@ -1,0 +1,77 @@
+{
+    "id": "https://doi.org/10.58006/bfbgx-128093",
+    "doi": "10.58006/BFBGX-128093",
+    "url": "https://campagnes.flotteoceanographique.fr/prl?id=BFBGX-128093",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Material sample",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "SULTAN, Nabil",
+            "nameType": "Personal",
+            "givenName": "Nabil",
+            "familyName": "SULTAN",
+            "affiliation": [
+                {
+                    "name": "Geo-Ocean - UMR 6538, FRANCE"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://orcid.org",
+                    "nameIdentifier": "https://orcid.org/0000-0003-0927-4908",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "title": "Core GMGC-39"
+        }
+    ],
+    "publisher": {
+        "name": "Ifremer"
+    },
+    "container": {},
+    "subjects": [],
+    "dates": [
+        {
+            "date": "2011-12-04",
+            "dateType": "Collected"
+        }
+    ],
+    "publicationYear": 2025,
+    "identifiers": [],
+    "descriptions": [
+        {
+            "description": "Core GMGC-39 collected during GUINECO-MEBO cruise (sampling method: Gravity corer)",
+            "descriptionType": "Abstract"
+        }
+    ],
+    "geoLocations": [
+        {
+            "geoLocationPoint": {
+                "pointLatitude": 3.226917,
+                "pointLongitude": 6.6975
+            }
+        }
+    ],
+    "relatedIdentifiers": [
+        {
+            "relationType": "IsCitedBy",
+            "relatedIdentifier": "10.17600/11030130",
+            "relatedIdentifierType": "DOI"
+        }
+    ],
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "providerId": "euvi",
+    "clientId": "euvi.ifremerigsn",
+    "agency": "datacite",
+    "state": "findable"
+}

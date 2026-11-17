@@ -1,0 +1,58 @@
+{
+    "id": "https://doi.org/10.25706/digitalcsic-igsn/622284",
+    "doi": "10.25706/DIGITALCSIC-IGSN/622284",
+    "url": "http://hdl.handle.net/10261/418167",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Ratto, N."
+        },
+        {
+            "name": "P\u00e9rez-Torrado, Francisco J."
+        },
+        {
+            "name": "Fernandez-Turiel, J. L."
+        }
+    ],
+    "titles": [
+        {
+            "title": "CB-104A"
+        }
+    ],
+    "publisher": {
+        "name": "DIGITAL.CSIC; CSIC - Instituto de Geociencias Barcelona (GEO3BCN)"
+    },
+    "container": {},
+    "subjects": [
+        {
+            "subject": "Tephra"
+        },
+        {
+            "subject": "Sedimentary&gt;Volcaniclastic"
+        },
+        {
+            "subject": "Lapilli and ash"
+        }
+    ],
+    "publicationYear": 2026,
+    "identifiers": [],
+    "geoLocations": [
+        {
+            "geoLocationPlace": "Chuquisaca (R\u00edo Chuquisaca), Argentina",
+            "geoLocationPoint": {
+                "pointLatitude": -27,
+                "pointLongitude": -67
+            }
+        }
+    ],
+    "providerId": "csic",
+    "clientId": "csic.digital-igsn",
+    "agency": "datacite",
+    "state": "findable"
+}

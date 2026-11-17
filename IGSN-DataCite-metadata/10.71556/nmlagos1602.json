@@ -1,0 +1,190 @@
+{
+    "id": "https://doi.org/10.71556/nmlagos1602",
+    "doi": "10.71556/NMLAGOS1602",
+    "url": "https://lagosmuseum.ng/handle/20.500.14596/4214",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Print",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "National Museum Lagos",
+            "affiliation": [],
+            "nameIdentifiers": []
+        }
+    ],
+    "titles": [
+        {
+            "lang": "",
+            "title": "Kanam-Wase Boundary of Shendam,Pankshin Division, Plateau Province"
+        }
+    ],
+    "publisher": {
+        "name": "National Museum Lagos"
+    },
+    "container": {},
+    "subjects": [
+        {
+            "lang": "",
+            "subject": "Alkamma"
+        },
+        {
+            "lang": "",
+            "subject": "Yelwa"
+        },
+        {
+            "lang": "",
+            "subject": "Guruntu"
+        },
+        {
+            "lang": "",
+            "subject": "Adamawa"
+        },
+        {
+            "lang": "",
+            "subject": "Residence"
+        },
+        {
+            "lang": "",
+            "subject": "Pankshin"
+        },
+        {
+            "lang": "",
+            "subject": "Emirates"
+        },
+        {
+            "lang": "",
+            "subject": "Emir"
+        },
+        {
+            "lang": "",
+            "subject": "Sarki"
+        },
+        {
+            "lang": "",
+            "subject": "Bashar"
+        },
+        {
+            "lang": "",
+            "subject": "Shendam"
+        },
+        {
+            "lang": "",
+            "subject": "Kanam-Wase Boundary"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "National Museum Lagos",
+            "affiliation": [],
+            "contributorType": "DataManager",
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://ror.org",
+                    "nameIdentifier": "https://ror.org/01qcn1r66",
+                    "nameIdentifierScheme": "ROR"
+                }
+            ]
+        },
+        {
+            "name": "Eko-Konnect",
+            "affiliation": [],
+            "contributorType": "HostingInstitution",
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://ror.org",
+                    "nameIdentifier": "https://ror.org/047h63042",
+                    "nameIdentifierScheme": "ROR"
+                }
+            ]
+        }
+    ],
+    "dates": [
+        {
+            "date": "2025-02-27",
+            "dateType": "Accepted"
+        },
+        {
+            "date": "2025-02-27",
+            "dateType": "Available"
+        },
+        {
+            "date": "1931",
+            "dateType": "Created"
+        },
+        {
+            "date": "1959-09",
+            "dateType": "Submitted"
+        },
+        {
+            "date": "2025",
+            "dateType": "Issued"
+        }
+    ],
+    "publicationYear": 2025,
+    "language": "en",
+    "identifiers": [
+        {
+            "identifier": "https://lagosmuseum.ng/handle/20.500.14596/4214",
+            "identifierType": "uri"
+        },
+        {
+            "identifier": "1959",
+            "identifierType": "catalogue"
+        }
+    ],
+    "sizes": [],
+    "formats": [],
+    "rightsList": [
+        {
+            "rights": "Attribution-NonCommercial-NoDerivatives 4.0 International"
+        },
+        {
+            "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+            "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+            "schemeUri": "https://spdx.org/licenses/",
+            "rightsIdentifier": "cc-by-nc-nd-4.0",
+            "rightsIdentifierScheme": "SPDX"
+        }
+    ],
+    "descriptions": [
+        {
+            "lang": "",
+            "description": "An intelligence report written on the Kanam-Wase boundary in the Pankshin Division of Plateau Province.",
+            "descriptionType": "Abstract"
+        },
+        {
+            "lang": "",
+            "description": "Collection",
+            "descriptionType": "Methods"
+        },
+        {
+            "lang": "",
+            "description": "Shendam, Pankshin Division, Plateau Province, Northern Provinces, Nigeria.",
+            "descriptionType": "TechnicalInfo"
+        }
+    ],
+    "geoLocations": [],
+    "fundingReferences": [
+        {
+            "awardUri": "https://doi.org/10.14454/mp4r-j533",
+            "schemeUri": "https://ror.org",
+            "awardTitle": "GAF2024 Demonstrator 02",
+            "funderName": "Datacite",
+            "awardNumber": "10.14454/mp4r-j533",
+            "funderIdentifier": "https://ror.org/04wxnsj81",
+            "funderIdentifierType": "ROR"
+        }
+    ],
+    "relatedIdentifiers": [],
+    "relatedItems": [],
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "providerId": "mnyf",
+    "clientId": "fzao.gevuyk",
+    "agency": "datacite",
+    "state": "findable"
+}

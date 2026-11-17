@@ -1,0 +1,70 @@
+{
+    "id": "https://doi.org/10.58006/bfbgx-101932",
+    "doi": "10.58006/BFBGX-101932",
+    "url": "https://campagnes.flotteoceanographique.fr/prl?id=BFBGX-101932",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Material sample",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "OLIVET, Jean-Louis",
+            "nameType": "Personal",
+            "givenName": "Jean-Louis",
+            "familyName": "OLIVET",
+            "affiliation": [
+                {
+                    "name": "Ifremer, Marine Geosciences, FRANCE"
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "title": "Core PLY2-KS48"
+        }
+    ],
+    "publisher": {
+        "name": "Ifremer"
+    },
+    "container": {},
+    "subjects": [],
+    "dates": [
+        {
+            "date": "1972-05-21",
+            "dateType": "Collected"
+        }
+    ],
+    "publicationYear": 2025,
+    "identifiers": [],
+    "descriptions": [
+        {
+            "description": "Core PLY2-KS48 collected during POLYMEDE II 05-72 CH27 cruise (sampling method: Kullenberg corer)",
+            "descriptionType": "Abstract"
+        }
+    ],
+    "geoLocations": [
+        {
+            "geoLocationPoint": {
+                "pointLatitude": 37.49,
+                "pointLongitude": 1.7716667
+            }
+        }
+    ],
+    "relatedIdentifiers": [
+        {
+            "relationType": "IsCitedBy",
+            "relatedIdentifier": "10.17600/72000611",
+            "relatedIdentifierType": "DOI"
+        }
+    ],
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "providerId": "euvi",
+    "clientId": "euvi.ifremerigsn",
+    "agency": "datacite",
+    "state": "findable"
+}

@@ -8,10 +8,10 @@
 * [landscape-analysis.md](landscape-analysis.md)
 * [IGNS-explore.ipynb](IGNS-explore.ipynb) - exploring IGSN information and organization through Datacite API
   * produces: [igsn_catalogs_ids.csv](igsn_catalogs_ids.csv) containing some IGSNs per catalog
-    * example Archeology IGSN: <https://doi.org/10.71928/m-202600319-n00016>
-    * example Botany IGSN: <https://doi.org/10.58030/kielbot0007050>
-    * example of IGSN with relation to other identifiers (DOIs & IGSN) <https://doi.org/10.60578/0jf7-3tu6>
+* [IGSN-DataCite-metadata.ipynb](IGSN-DataCite-metadata.ipynb) 
+  * downloads IGSN IDs metadata records listed in, [igsn_catalogs_ids.csv](igsn_catalogs_ids.csv) and stores them in [IGSN-DataCite-metadata/](IGSN-DataCite-metadata/) ie. [IGSN-DataCite-metadata/10.71928/m-202600319-n00016.json](IGSN-DataCite-metadata/10.71928/m-202600319-n00016.json)
 * [Datacite Registration Demo](datacite-registration-poc) - Bare bones application that registers IGSNs at Datacite
+
 ---
 
 Andre Castro, Daan Janssen </br>

@@ -1,0 +1,127 @@
+{
+    "id": "https://doi.org/10.58031/kiel0267gck2201",
+    "doi": "10.58031/KIEL0267GCK2201",
+    "url": "https://osis.geomar.de/app/expeditions/370256/events/1983928",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Material sample",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Frank, Martin",
+            "nameType": "Personal",
+            "givenName": "Martin",
+            "familyName": "Frank",
+            "affiliation": [
+                {
+                    "name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+                    "schemeUri": "https://ror.org",
+                    "affiliationIdentifier": "https://ror.org/02h2x0161",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://orcid.org",
+                    "nameIdentifier": "https://orcid.org/0000-0002-8606-4421",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "title": "Sediment core SO314_385-1"
+        }
+    ],
+    "publisher": {
+        "name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+        "schemeUri": "https://ror.org",
+        "publisherIdentifier": "https://ror.org/02h2x0161",
+        "publisherIdentifierScheme": "ROR"
+    },
+    "container": {},
+    "subjects": [],
+    "contributors": [
+        {
+            "name": "Maicher, Doris",
+            "nameType": "Personal",
+            "givenName": "Doris",
+            "familyName": "Maicher",
+            "affiliation": [
+                {
+                    "name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+                    "schemeUri": "https://ror.org",
+                    "affiliationIdentifier": "https://ror.org/02h2x0161",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "contributorType": "ContactPerson",
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://orcid.org",
+                    "nameIdentifier": "https://orcid.org/0000-0003-0742-4570",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        }
+    ],
+    "dates": [
+        {
+            "date": "2025-09-24T07:01:00",
+            "dateType": "Collected"
+        },
+        {
+            "date": "2025",
+            "dateType": "Issued"
+        }
+    ],
+    "publicationYear": 2025,
+    "identifiers": [],
+    "sizes": [],
+    "formats": [],
+    "rightsList": [],
+    "descriptions": [
+        {
+            "description": "Device: Gravity Corer",
+            "descriptionType": "TechnicalInfo"
+        },
+        {
+            "description": "Depth: 3023.8 m",
+            "descriptionType": "TechnicalInfo"
+        }
+    ],
+    "geoLocations": [
+        {
+            "geoLocationPoint": {
+                "pointLatitude": -14.2086,
+                "pointLongitude": -112.1465
+            }
+        }
+    ],
+    "fundingReferences": [],
+    "relatedIdentifiers": [
+        {
+            "relationType": "IsDescribedBy",
+            "relatedIdentifier": "https://www.pangaea.de/?q=campaign:name:%22SO314%22",
+            "resourceTypeGeneral": "Dataset",
+            "relatedIdentifierType": "URL"
+        },
+        {
+            "relationType": "IsDescribedBy",
+            "relatedIdentifier": "10.48433/cr_so314",
+            "resourceTypeGeneral": "Report",
+            "relatedIdentifierType": "DOI"
+        }
+    ],
+    "relatedItems": [],
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "providerId": "hema",
+    "clientId": "fnma.ytwwww",
+    "agency": "datacite",
+    "state": "findable"
+}

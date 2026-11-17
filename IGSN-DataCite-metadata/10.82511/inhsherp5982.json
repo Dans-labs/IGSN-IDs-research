@@ -1,0 +1,78 @@
+{
+    "id": "https://doi.org/10.82511/inhsherp5982",
+    "doi": "10.82511/INHSHERP5982",
+    "url": "https://app.geosamples.org/sample/igsn/10.82511/INHSHERP5982",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Specimen",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Santoyo Brito, Enrique",
+            "nameType": "Personal",
+            "givenName": "Enrique",
+            "familyName": "Santoyo Brito",
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://orcid.org",
+                    "nameIdentifier": "https://orcid.org/0000-0003-3997-3232",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "title": "INHS 5982 Specimen Macrobiology>Biology Scientific name; Pseudacris illinoensis"
+        }
+    ],
+    "publisher": {
+        "name": "SESAR"
+    },
+    "container": {},
+    "subjects": [
+        {
+            "subject": "Specimen"
+        },
+        {
+            "subject": "Macrobiology&gt;Biology"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Illinois Natural History Survey",
+            "nameType": "Organizational",
+            "contributorType": "HostingInstitution"
+        }
+    ],
+    "dates": [
+        {
+            "date": "2026-05-20",
+            "dateType": "Updated"
+        },
+        {
+            "date": "1950-05-19",
+            "dateType": "Collected"
+        }
+    ],
+    "publicationYear": 2026,
+    "identifiers": [],
+    "geoLocations": [
+        {
+            "geoLocationPlace": "3 mi N Meredosia United States Illinois Morgan",
+            "geoLocationPoint": {
+                "pointLatitude": 39.87623,
+                "pointLongitude": -90.54345
+            }
+        }
+    ],
+    "relatedIdentifiers": [],
+    "providerId": "illinois",
+    "clientId": "illinois.inhs",
+    "agency": "datacite",
+    "state": "findable"
+}

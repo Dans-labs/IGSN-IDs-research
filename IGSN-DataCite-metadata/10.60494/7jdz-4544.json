@@ -1,0 +1,43 @@
+{
+    "id": "https://doi.org/10.60494/7jdz-4544",
+    "doi": "10.60494/7JDZ-4544",
+    "url": "https://pid.geoscience.gov.au/sample/AU11247941",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Geoscience Australia"
+        }
+    ],
+    "titles": [
+        {
+            "title": "Geoscience Australia Sample Number: 11247941"
+        }
+    ],
+    "publisher": {
+        "name": "Geoscience Australia"
+    },
+    "container": {},
+    "subjects": [],
+    "publicationYear": 2020,
+    "identifiers": [],
+    "geoLocations": [
+        {
+            "geoLocationPlace": "State: NT, Country: AUS",
+            "geoLocationPoint": {
+                "pointLatitude": -19.7756754,
+                "pointLongitude": 135.8956725
+            }
+        }
+    ],
+    "providerId": "vvha",
+    "clientId": "vvha.drnxjp",
+    "agency": "datacite",
+    "state": "findable"
+}

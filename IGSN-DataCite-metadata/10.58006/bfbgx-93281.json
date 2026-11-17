@@ -1,0 +1,70 @@
+{
+    "id": "https://doi.org/10.58006/bfbgx-93281",
+    "doi": "10.58006/BFBGX-93281",
+    "url": "https://campagnes.flotteoceanographique.fr/prl?id=BFBGX-93281",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Material sample",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "LE SUAVE, Raymond",
+            "nameType": "Personal",
+            "givenName": "Raymond",
+            "familyName": "LE SUAVE",
+            "affiliation": [
+                {
+                    "name": "Ifremer, Marine Geosciences, FRANCE"
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "title": "Core SBD-KS01"
+        }
+    ],
+    "publisher": {
+        "name": "Ifremer"
+    },
+    "container": {},
+    "subjects": [],
+    "dates": [
+        {
+            "date": "1980-10-10",
+            "dateType": "Collected"
+        }
+    ],
+    "publicationYear": 2025,
+    "identifiers": [],
+    "descriptions": [
+        {
+            "description": "Core SBD-KS01 collected during SEABED I CH117 cruise (sampling method: Kullenberg corer)",
+            "descriptionType": "Abstract"
+        }
+    ],
+    "geoLocations": [
+        {
+            "geoLocationPoint": {
+                "pointLatitude": 19.18733,
+                "pointLongitude": -29.9015
+            }
+        }
+    ],
+    "relatedIdentifiers": [
+        {
+            "relationType": "IsCitedBy",
+            "relatedIdentifier": "10.17600/80003611",
+            "relatedIdentifierType": "DOI"
+        }
+    ],
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "providerId": "euvi",
+    "clientId": "euvi.ifremerigsn",
+    "agency": "datacite",
+    "state": "findable"
+}

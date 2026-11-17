@@ -1,0 +1,43 @@
+{
+    "id": "https://doi.org/10.58057/ldld7f4e1338",
+    "doi": "10.58057/LDLD7F4E1338",
+    "url": "https://app.lithodat.com/doi/10.58057/LDLD7F4E1338",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "PhysicalObject",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Hannelore Ai",
+            "nameType": "Personal",
+            "affiliation": []
+        }
+    ],
+    "titles": [
+        {
+            "title": "hannelore's test sample"
+        }
+    ],
+    "publisher": {
+        "name": "Lithodat Pty Ltd"
+    },
+    "container": {},
+    "subjects": [],
+    "contributors": [],
+    "dates": [],
+    "publicationYear": 2026,
+    "identifiers": [],
+    "sizes": [],
+    "rightsList": [],
+    "descriptions": [],
+    "geoLocations": [],
+    "relatedIdentifiers": [],
+    "providerId": "hypc",
+    "clientId": "hypc.alegbj",
+    "agency": "datacite",
+    "state": "findable"
+}

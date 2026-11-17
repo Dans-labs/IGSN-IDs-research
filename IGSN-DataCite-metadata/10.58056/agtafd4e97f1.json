@@ -1,0 +1,104 @@
+{
+    "id": "https://doi.org/10.58056/agtafd4e97f1",
+    "doi": "10.58056/AGTAFD4E97F1",
+    "url": "https://www.earthbank.au/doi/10.58056/AGTAFD4E97F1",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Rock",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "lang": "en",
+            "name": "Silva Gomes, Allan",
+            "nameType": "Personal",
+            "givenName": "Allan",
+            "familyName": "Silva Gomes",
+            "affiliation": [
+                {
+                    "name": "University of Tasmania",
+                    "schemeUri": "https://ror.org",
+                    "affiliationIdentifier": "https://ror.org/01nfmeh72",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://orcid.org",
+                    "nameIdentifier": "https://orcid.org/0000-0003-1457-8578",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "lang": "en",
+            "title": "PNT5b"
+        }
+    ],
+    "publisher": {
+        "lang": "en",
+        "name": "The AuScope EarthBank Platform",
+        "schemeUri": "https://re3data.org/",
+        "publisherIdentifier": "https://doi.org/10.17616/R31NJNAO",
+        "publisherIdentifierScheme": "re3data"
+    },
+    "container": {},
+    "subjects": [
+        {
+            "lang": "en",
+            "subject": "Kimberlite",
+            "schemeUri": "https://www.mindat.org/",
+            "subjectScheme": "mindat",
+            "classificationCode": "48035"
+        },
+        {
+            "lang": "en",
+            "subject": "2026-09-17 #19",
+            "schemeUri": null,
+            "subjectScheme": "User Defined",
+            "classificationCode": null
+        }
+    ],
+    "contributors": [],
+    "dates": [],
+    "publicationYear": 2026,
+    "language": "en",
+    "identifiers": [],
+    "sizes": [],
+    "formats": [],
+    "rightsList": [],
+    "descriptions": [
+        {
+            "lang": "en",
+            "description": "Hand Sample",
+            "descriptionType": "Methods"
+        },
+        {
+            "lang": "en",
+            "description": "Azzone et al. (2024)",
+            "descriptionType": "Abstract"
+        }
+    ],
+    "geoLocations": [
+        {
+            "geoLocationPlace": "Alto Parana\u00edba (P\u00e2ntano)",
+            "geoLocationPoint": {
+                "pointLatitude": -18.493753,
+                "pointLongitude": -46.806
+            }
+        }
+    ],
+    "fundingReferences": [],
+    "relatedIdentifiers": [],
+    "relatedItems": [],
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "providerId": "hypc",
+    "clientId": "hypc.pgxtac",
+    "agency": "datacite",
+    "state": "findable"
+}

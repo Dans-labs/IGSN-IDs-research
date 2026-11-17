@@ -29,7 +29,7 @@ Examples:
 * <https://digiarchiv.aiscr.cz/id/C-N9001481>z [10.71928/c-n9001481 in Datacite Commons](https://commons.datacite.org/doi.org/10.71928/c-n9001481)
 
 
-# IGSN Catalogs
+## IGSN Catalogs
 
 * <https://dataservices.gfz-potsdam.de/igsn-new/>
   * DOES NOT: display full IGSN ID (DOI)
@@ -37,7 +37,7 @@ Examples:
 * <https://www.geosamples.org/>
   * sample example: <https://app.geosamples.org/sample/igsn/10.58136/UGS0006JB>
 
-# Creating an IGSN ID Catalog Repository
+### Creating an IGSN ID Catalog Repository
 
 Reference: <https://support.datacite.org/docs/registering-igsn-ids>
 
@@ -54,15 +54,18 @@ On the "Add Repository" page, select "IGSN ID Catalog" option from the Type drop
 "IGSN IDs are distinguished from DOIs for other physical objects at the **Repository account** and **prefix level**"
 
 
+## IGSN Metadata
 
-## IGSN Metadata 
+IGSN Metadata is divided in 2 layers:
 
-IGSN Metadata is divided in 2 layers: 
 * PID metadata: uses DataCite metadata Schema and focuses on citation and core discovery of a material sample
 * Catalog/repository (custom) metadata focuses on domain-specific discovery and reuse of a material sample  
 
-The most important DataCite PID metadata elements are: [^1]
-- ResourceType - "The resourceType property may be populated with resource types from external ontologies or shared vocabularies. In the absence of an agreed vocabulary, the use of the terms “material sample” or “‘feature-of-interest” are strongly recommended"
+### ResourcesType
+
+The most important DataCite PID metadata elements for IGSN are: [^1]
+
+- ResourceType - "The resourceType property may be populated with resource types from **external ontologies or shared vocabularies**. In the absence of an agreed vocabulary, the use of the terms **“material sample”** or **“feature-of-interest”** are strongly recommended"
 - resourceTypeGeneral - **resourceTypeGeneral property is “PhysicalObject” for all IGSN IDs.**
 
 ### Linking IGSN Datacite metadata to custom metadata:

@@ -1,0 +1,64 @@
+{
+    "id": "https://doi.org/10.60510/gf1211l-3w",
+    "doi": "10.60510/GF1211L-3W",
+    "url": "https://dataservices.gfz.de/10.60510/gf1211l-3w/igsn-gf1211l-3w",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Physical Object",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": ":tba, :tba",
+            "nameType": "Personal",
+            "givenName": ":tba",
+            "familyName": ":tba",
+            "affiliation": [
+                {
+                    "name": ":tba"
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "lang": "en",
+            "title": "IGSN GF1211L-3W"
+        }
+    ],
+    "publisher": {
+        "lang": "en",
+        "name": "GFZ Data Services",
+        "schemeUri": "https://re3data.org/",
+        "publisherIdentifier": "https://doi.org/10.17616/R3VQ0S",
+        "publisherIdentifierScheme": "re3data"
+    },
+    "container": {},
+    "subjects": [],
+    "contributors": [],
+    "dates": [
+        {
+            "date": "2025",
+            "dateType": "Issued"
+        }
+    ],
+    "publicationYear": 2025,
+    "language": "en",
+    "identifiers": [],
+    "sizes": [],
+    "formats": [],
+    "rightsList": [],
+    "descriptions": [],
+    "geoLocations": [],
+    "fundingReferences": [],
+    "relatedIdentifiers": [],
+    "relatedItems": [],
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "providerId": "gfz",
+    "clientId": "gfz.igsn",
+    "agency": "datacite",
+    "state": "findable"
+}

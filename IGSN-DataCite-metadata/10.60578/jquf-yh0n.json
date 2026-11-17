@@ -1,0 +1,695 @@
+{
+    "id": "https://doi.org/10.60578/jquf-yh0n",
+    "doi": "10.60578/JQUF-YH0N",
+    "url": "https://igsn.uni-kiel.de/sample/10.60578/jquf-yh0n",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Material sample",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Cadamuro, Francesca",
+            "nameType": "Personal",
+            "givenName": "Francesca",
+            "familyName": "Cadamuro",
+            "affiliation": [
+                {
+                    "name": "University of Milano-Bicocca",
+                    "affiliationIdentifier": "https://ror.org/01ynf4891",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0000-0003-2361-6775",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Ghizzi, Martina",
+            "nameType": "Personal",
+            "givenName": "Martina",
+            "familyName": "Ghizzi",
+            "affiliation": [
+                {
+                    "name": "University of Milano-Bicocca",
+                    "affiliationIdentifier": "https://ror.org/01ynf4891",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0009-0006-4982-7182",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Nicolini, Gabriella",
+            "nameType": "Personal",
+            "givenName": "Gabriella",
+            "familyName": "Nicolini",
+            "affiliation": [
+                {
+                    "name": "University of Milano-Bicocca",
+                    "affiliationIdentifier": "https://ror.org/01ynf4891",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0000-0002-6241-4538",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Bentivegna, Angela",
+            "nameType": "Personal",
+            "givenName": "Angela",
+            "familyName": "Bentivegna",
+            "affiliation": [
+                {
+                    "name": "University of Milano-Bicocca",
+                    "affiliationIdentifier": "https://ror.org/01ynf4891",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0000-0001-7535-846X",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Fahad, Hafiz Muhammad",
+            "nameType": "Personal",
+            "givenName": "Hafiz Muhammad",
+            "familyName": "Fahad",
+            "affiliation": [
+                {
+                    "name": "Ludwig Maximilian University of Munich",
+                    "affiliationIdentifier": "https://ror.org/05591te55",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0009-0007-9632-0963",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Sheikhi, Sobhan",
+            "nameType": "Personal",
+            "givenName": "Sobhan",
+            "familyName": "Sheikhi",
+            "affiliation": [
+                {
+                    "name": "Ludwig Maximilian University of Munich",
+                    "affiliationIdentifier": "https://ror.org/05591te55",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ]
+        },
+        {
+            "name": "Salome, Murielle",
+            "nameType": "Personal",
+            "givenName": "Murielle",
+            "familyName": "Salome",
+            "affiliation": [
+                {
+                    "name": "European Synchrotron Radiation Facility",
+                    "affiliationIdentifier": "https://ror.org/02550n020",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ]
+        },
+        {
+            "name": "Claire, Seydoux",
+            "nameType": "Personal",
+            "givenName": "Seydoux",
+            "familyName": "Claire",
+            "affiliation": [
+                {
+                    "name": "European Synchrotron Radiation Facility",
+                    "affiliationIdentifier": "https://ror.org/02550n020",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ]
+        },
+        {
+            "name": "Cloetens, Peter",
+            "nameType": "Personal",
+            "givenName": "Peter",
+            "familyName": "Cloetens",
+            "affiliation": [
+                {
+                    "name": "European Synchrotron Radiation Facility",
+                    "affiliationIdentifier": "https://ror.org/02550n020",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0000-0002-4129-9091",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Bravin, Alberto",
+            "nameType": "Personal",
+            "givenName": "Alberto",
+            "familyName": "Bravin",
+            "affiliation": [
+                {
+                    "name": "University of Milano-Bicocca",
+                    "affiliationIdentifier": "https://ror.org/01ynf4891",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0000-0001-6868-2755",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Coan, Paola",
+            "nameType": "Personal",
+            "givenName": "Paola",
+            "familyName": "Coan",
+            "affiliation": [
+                {
+                    "name": "Ludwig Maximilian University of Munich",
+                    "affiliationIdentifier": "https://ror.org/05591te55",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0000-0003-1399-2398",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Nicotra, Francesco",
+            "nameType": "Personal",
+            "givenName": "Francesco",
+            "familyName": "Nicotra",
+            "affiliation": [
+                {
+                    "name": "University of Milano-Bicocca",
+                    "affiliationIdentifier": "https://ror.org/01ynf4891",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0000-0003-1008-196X",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Russo, Laura",
+            "nameType": "Personal",
+            "givenName": "Laura",
+            "familyName": "Russo",
+            "affiliation": [
+                {
+                    "name": "University of Milano-Bicocca",
+                    "affiliationIdentifier": "https://ror.org/01ynf4891",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0000-0002-5914-766X",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "lang": "en-US",
+            "title": "3D bioprinted Glioblastoma multiforme model: Hydrogel based on hyaluronic acid, gelatin functionalized with \u03b1-NeuNAc-(2\u21923)-\u03b2-D-Gal- and chondroitin sulfate treated with TMZ and MV1035 - Replicate 3"
+        },
+        {
+            "lang": "en-US",
+            "title": "HA-GEL-3'SialGal-CS_TMZ_MV1035_3",
+            "titleType": "AlternativeTitle"
+        }
+    ],
+    "publisher": {
+        "name": "Kiel University",
+        "schemeUri": "https://ror.org/",
+        "publisherIdentifier": "https://ror.org/04v76ef78",
+        "publisherIdentifierScheme": "ROR"
+    },
+    "container": {},
+    "subjects": [
+        {
+            "lang": "en-US",
+            "subject": "3D Bioprinting"
+        },
+        {
+            "lang": "en-US",
+            "subject": "Hydrogel"
+        },
+        {
+            "lang": "en-US",
+            "subject": "ECM Mimics"
+        },
+        {
+            "lang": "en-US",
+            "subject": "Glioblastoma"
+        },
+        {
+            "lang": "en-US",
+            "subject": "X-Ray Microtomography",
+            "valueUri": "http://purl.org/pan-science/PaNET/PaNET01208",
+            "schemeUri": "https://purl.org/pan-science/PaNET",
+            "subjectScheme": "PaNET"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Cadamuro, Francesca",
+            "nameType": "Personal",
+            "givenName": "Francesca",
+            "familyName": "Cadamuro",
+            "affiliation": [
+                {
+                    "name": "University of Milano-Bicocca",
+                    "affiliationIdentifier": "https://ror.org/01ynf4891",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "contributorType": "ContactPerson",
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0000-0003-2361-6775",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Ghizzi, Martina",
+            "nameType": "Personal",
+            "givenName": "Martina",
+            "familyName": "Ghizzi",
+            "affiliation": [
+                {
+                    "name": "University of Milano-Bicocca",
+                    "affiliationIdentifier": "https://ror.org/01ynf4891",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "contributorType": "Producer",
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0009-0006-4982-7182",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Nicolini, Gabriella",
+            "nameType": "Personal",
+            "givenName": "Gabriella",
+            "familyName": "Nicolini",
+            "affiliation": [
+                {
+                    "name": "University of Milano-Bicocca",
+                    "affiliationIdentifier": "https://ror.org/01ynf4891",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "contributorType": "Researcher",
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0000-0002-6241-4538",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Bentivegna, Angela",
+            "nameType": "Personal",
+            "givenName": "Angela",
+            "familyName": "Bentivegna",
+            "affiliation": [
+                {
+                    "name": "University of Milano-Bicocca",
+                    "affiliationIdentifier": "https://ror.org/01ynf4891",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "contributorType": "Researcher",
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0000-0001-7535-846X",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Fahad, Hafiz Muhammad",
+            "nameType": "Personal",
+            "givenName": "Hafiz Muhammad",
+            "familyName": "Fahad",
+            "affiliation": [
+                {
+                    "name": "Ludwig Maximilian University of Munich",
+                    "affiliationIdentifier": "https://ror.org/05591te55",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "contributorType": "DataCollector",
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0009-0007-9632-0963",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Sheikhi, Sobhan",
+            "nameType": "Personal",
+            "givenName": "Sobhan",
+            "familyName": "Sheikhi",
+            "affiliation": [
+                {
+                    "name": "Ludwig Maximilian University of Munich",
+                    "affiliationIdentifier": "https://ror.org/05591te55",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "contributorType": "DataCollector"
+        },
+        {
+            "name": "Salome, Murielle",
+            "nameType": "Personal",
+            "givenName": "Murielle",
+            "familyName": "Salome",
+            "affiliation": [
+                {
+                    "name": "European Synchrotron Radiation Facility",
+                    "affiliationIdentifier": "https://ror.org/02550n020",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "contributorType": "DataCollector"
+        },
+        {
+            "name": "Claire, Seydoux",
+            "nameType": "Personal",
+            "givenName": "Seydoux",
+            "familyName": "Claire",
+            "affiliation": [
+                {
+                    "name": "European Synchrotron Radiation Facility",
+                    "affiliationIdentifier": "https://ror.org/02550n020",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "contributorType": "DataCollector"
+        },
+        {
+            "name": "Cloetens, Peter",
+            "nameType": "Personal",
+            "givenName": "Peter",
+            "familyName": "Cloetens",
+            "affiliation": [
+                {
+                    "name": "European Synchrotron Radiation Facility",
+                    "affiliationIdentifier": "https://ror.org/02550n020",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "contributorType": "DataCollector",
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0000-0002-4129-9091",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Bravin, Alberto",
+            "nameType": "Personal",
+            "givenName": "Alberto",
+            "familyName": "Bravin",
+            "affiliation": [
+                {
+                    "name": "University of Milano-Bicocca",
+                    "affiliationIdentifier": "https://ror.org/01ynf4891",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "contributorType": "Supervisor",
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0000-0001-6868-2755",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Coan, Paola",
+            "nameType": "Personal",
+            "givenName": "Paola",
+            "familyName": "Coan",
+            "affiliation": [
+                {
+                    "name": "Ludwig Maximilian University of Munich",
+                    "affiliationIdentifier": "https://ror.org/05591te55",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "contributorType": "Supervisor",
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0000-0003-1399-2398",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Nicotra, Francesco",
+            "nameType": "Personal",
+            "givenName": "Francesco",
+            "familyName": "Nicotra",
+            "affiliation": [
+                {
+                    "name": "University of Milano-Bicocca",
+                    "affiliationIdentifier": "https://ror.org/01ynf4891",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "contributorType": "Supervisor",
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0000-0003-1008-196X",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Russo, Laura",
+            "nameType": "Personal",
+            "givenName": "Laura",
+            "familyName": "Russo",
+            "affiliation": [
+                {
+                    "name": "University of Milano-Bicocca",
+                    "affiliationIdentifier": "https://ror.org/01ynf4891",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "contributorType": "ContactPerson",
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0000-0002-5914-766X",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Hayen, Nicolas",
+            "nameType": "Personal",
+            "givenName": "Nicolas",
+            "familyName": "Hayen",
+            "affiliation": [
+                {
+                    "name": "Kiel University",
+                    "affiliationIdentifier": "https://ror.org/04v76ef78",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "contributorType": "DataCurator",
+            "nameIdentifiers": [
+                {
+                    "nameIdentifier": "https://orcid.org/0009-0002-3542-8149",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        }
+    ],
+    "dates": [
+        {
+            "date": "2024-12-02",
+            "dateType": "Created",
+            "dateInformation": "Patient-derived glioblastoma multiforme (GBM) cells were cultured in T-flasks under standard conditions."
+        },
+        {
+            "date": "2024-12-09",
+            "dateType": "Updated",
+            "dateInformation": "Cells were enzymatically detached (trypsinized), encapsulated in glyco-functionalized hydrogel formulations, and 3D bioprinted into 12 replicates in a 24-well plate."
+        },
+        {
+            "date": "2024-12-16",
+            "dateType": "Updated",
+            "dateInformation": "Drug treatment initiated. The bioprinted constructs were treated with TMZ and MV1035 (3 replicates)."
+        },
+        {
+            "date": "2024-12-19",
+            "dateType": "Updated",
+            "dateInformation": "All samples were chemically fixed with PFA 4% and embedded in paraffin for preservation and downstream analysis."
+        },
+        {
+            "date": "2026-02-04",
+            "dateType": "Updated",
+            "dateInformation": "Paraffin blocks were sectioned via biopsy to prepare sub-samples for X-ray nano-tomography analysis. Samples punched out with 750\u00b5m diameter puncher."
+        },
+        {
+            "date": "2026-02-05",
+            "dateType": "Updated",
+            "dateInformation": "X-ray nano-tomography was performed at a synchrotron facility (ID16a) to obtain 3D, non-destructive imaging of the internal architecture of the constructs (LS3548)."
+        }
+    ],
+    "publicationYear": 2026,
+    "identifiers": [],
+    "descriptions": [
+        {
+            "lang": "en-US",
+            "description": "The samples consist of 3D bioprinted hydrogel constructs designed to mimic the extracellular matrix (ECM) of Glioblastoma multiforme (GBM), an aggressive brain tumor characterized by aberrant glycosylation and ECM remodeling. These pathological features promote tumor progression, invasion, and therapy resistance, underscoring the need for physiologically relevant in vitro models to support therapeutic development. In this study, we formulated a hydrogel based on gelatin functionalized with \u03b1-NeuNAc-(2\u21923)-\u03b2-D-Gal-, hyaluronic acid, and chondroitin sulfate\u2014glycan components overexpressed in the GBM microenvironment. The biomaterials were modified with azide groups and crosslinked using 4-arm PEG-DBCO via strain-promoted azide-alkyne click chemistry (SPAAC) reaction. Hydrogels were 3D bioprinted using GBM patient-derived cells and subsequently treated with MV1035, an inhibitor of ALKBH2 and ALKBH5, reported to overcome TMZ resistance in GBM stem cell lines and Temozolomide (TMZ). The samples were analyzed using X-ray nano-tomography, enabling high-resolution, non-destructive 3D characterization of the bioprinted structures. This analysis revealed that the extracellular matrix in all samples exhibits distinct gradients and structural heterogeneity, supporting our initial hypothesis that ECM organization plays a critical role in modulating tumor microenvironment and drug response. This biomimetic model offers a robust platform for investigating ECM glycosylation in GBM and serves as a valuable tool for pre-clinical drug screening and mechanistic studies.",
+            "descriptionType": "Abstract"
+        }
+    ],
+    "relatedIdentifiers": [
+        {
+            "relationType": "IsDescribedBy",
+            "relatedIdentifier": "10.1016/j.carbpol.2022.120395",
+            "resourceTypeGeneral": "PhysicalObject",
+            "relatedIdentifierType": "DOI"
+        },
+        {
+            "relationType": "IsDescribedBy",
+            "relatedIdentifier": "10.1002/ADHM.202101956",
+            "resourceTypeGeneral": "PhysicalObject",
+            "relatedIdentifierType": "DOI"
+        },
+        {
+            "relationType": "IsVariantFormOf",
+            "relatedIdentifier": "10.60578/bsre-mfzb",
+            "resourceTypeGeneral": "PhysicalObject",
+            "relatedIdentifierType": "IGSN"
+        },
+        {
+            "relationType": "IsVariantFormOf",
+            "relatedIdentifier": "10.60578/g843-kpvf",
+            "resourceTypeGeneral": "PhysicalObject",
+            "relatedIdentifierType": "IGSN"
+        },
+        {
+            "relationType": "IsVariantFormOf",
+            "relatedIdentifier": "10.60578/kp5x-yeqr",
+            "resourceTypeGeneral": "PhysicalObject",
+            "relatedIdentifierType": "IGSN"
+        },
+        {
+            "relationType": "IsVariantFormOf",
+            "relatedIdentifier": "10.60578/31px-9jhy",
+            "resourceTypeGeneral": "PhysicalObject",
+            "relatedIdentifierType": "IGSN"
+        },
+        {
+            "relationType": "IsVariantFormOf",
+            "relatedIdentifier": "10.60578/6gx3-ufxv",
+            "resourceTypeGeneral": "PhysicalObject",
+            "relatedIdentifierType": "IGSN"
+        },
+        {
+            "relationType": "IsVariantFormOf",
+            "relatedIdentifier": "10.60578/374p-c03x",
+            "resourceTypeGeneral": "PhysicalObject",
+            "relatedIdentifierType": "IGSN"
+        },
+        {
+            "relationType": "IsVariantFormOf",
+            "relatedIdentifier": "10.60578/bmwn-d6nv",
+            "resourceTypeGeneral": "PhysicalObject",
+            "relatedIdentifierType": "IGSN"
+        },
+        {
+            "relationType": "IsVariantFormOf",
+            "relatedIdentifier": "10.60578/dr19-8k0h",
+            "resourceTypeGeneral": "PhysicalObject",
+            "relatedIdentifierType": "IGSN"
+        },
+        {
+            "relationType": "IsVariantFormOf",
+            "relatedIdentifier": "10.60578/7my7-ddjn",
+            "resourceTypeGeneral": "PhysicalObject",
+            "relatedIdentifierType": "IGSN"
+        },
+        {
+            "relationType": "IsVariantFormOf",
+            "relatedIdentifier": "10.60578/b0d3-7j3d",
+            "resourceTypeGeneral": "PhysicalObject",
+            "relatedIdentifierType": "IGSN"
+        },
+        {
+            "relationType": "IsVariantFormOf",
+            "relatedIdentifier": "10.60578/4cqn-phsz",
+            "resourceTypeGeneral": "PhysicalObject",
+            "relatedIdentifierType": "IGSN"
+        },
+        {
+            "relationType": "IsVariantFormOf",
+            "relatedIdentifier": "10.60578/cahg-4n5x",
+            "resourceTypeGeneral": "PhysicalObject",
+            "relatedIdentifierType": "IGSN"
+        },
+        {
+            "relationType": "IsVariantFormOf",
+            "relatedIdentifier": "10.60578/w32f-tnt7",
+            "resourceTypeGeneral": "PhysicalObject",
+            "relatedIdentifierType": "IGSN"
+        },
+        {
+            "relationType": "IsVariantFormOf",
+            "relatedIdentifier": "10.60578/0jf7-3tu6",
+            "resourceTypeGeneral": "PhysicalObject",
+            "relatedIdentifierType": "IGSN"
+        }
+    ],
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "providerId": "fnma",
+    "clientId": "fnma.qimigb",
+    "agency": "datacite",
+    "state": "findable"
+}

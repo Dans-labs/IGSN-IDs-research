@@ -1,0 +1,83 @@
+{
+    "id": "https://doi.org/10.82511/inhsherp43790",
+    "doi": "10.82511/INHSHERP43790",
+    "url": "https://app.geosamples.org/sample/igsn/10.82511/INHSHERP43790",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Specimen",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Santoyo Brito, Enrique",
+            "nameType": "Personal",
+            "givenName": "Enrique",
+            "familyName": "Santoyo Brito",
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://orcid.org",
+                    "nameIdentifier": "https://orcid.org/0000-0003-3997-3232",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "title": "INHS 43790 Specimen Macrobiology>Biology Scientific name; Thamnophis fulvus; Common name;"
+        }
+    ],
+    "publisher": {
+        "name": "SESAR"
+    },
+    "container": {},
+    "subjects": [
+        {
+            "subject": "Specimen"
+        },
+        {
+            "subject": "Macrobiology&gt;Biology"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Illinois Natural History Survey",
+            "nameType": "Organizational",
+            "contributorType": "HostingInstitution"
+        }
+    ],
+    "dates": [
+        {
+            "date": "2026-05-20",
+            "dateType": "Updated"
+        },
+        {
+            "date": "1965-07-04",
+            "dateType": "Collected"
+        }
+    ],
+    "publicationYear": 2026,
+    "identifiers": [
+        {
+            "identifier": "Field No.",
+            "identifierType": "Local"
+        }
+    ],
+    "geoLocations": [
+        {
+            "geoLocationPlace": "Rte. 139, 9 mi. S Huatusco, along bank of Rio Jamapa Mexico Veracruz",
+            "geoLocationPoint": {
+                "pointLatitude": 19.10034,
+                "pointLongitude": -97.03383
+            }
+        }
+    ],
+    "relatedIdentifiers": [],
+    "providerId": "illinois",
+    "clientId": "illinois.inhs",
+    "agency": "datacite",
+    "state": "findable"
+}

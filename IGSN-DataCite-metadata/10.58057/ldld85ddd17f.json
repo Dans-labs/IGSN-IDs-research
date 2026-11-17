@@ -1,0 +1,85 @@
+{
+    "id": "https://doi.org/10.58057/ldld85ddd17f",
+    "doi": "10.58057/LDLD85DDD17F",
+    "url": "https://app.lithodat.com/doi/10.58057/LDLD85DDD17F",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Organic material",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "lang": "en",
+            "name": "Dudharejiya, Nirali",
+            "nameType": "Personal",
+            "givenName": "Nirali",
+            "familyName": "Dudharejiya",
+            "affiliation": [
+                {
+                    "name": "Lithodat Pty Ltd",
+                    "schemeUri": null,
+                    "affiliationIdentifier": null,
+                    "affiliationIdentifierScheme": null
+                }
+            ],
+            "nameIdentifiers": []
+        }
+    ],
+    "titles": [
+        {
+            "lang": "en",
+            "title": "IND-NW-SS-03"
+        }
+    ],
+    "publisher": {
+        "lang": "en",
+        "name": "The AuScope EarthBank Platform",
+        "schemeUri": "https://re3data.org/",
+        "publisherIdentifier": "https://doi.org/10.17616/R31NJNAO",
+        "publisherIdentifierScheme": "re3data"
+    },
+    "container": {},
+    "subjects": [
+        {
+            "lang": null,
+            "subject": "Aagot Member",
+            "schemeUri": null,
+            "subjectScheme": null,
+            "classificationCode": null
+        },
+        {
+            "lang": "en",
+            "subject": "2026-08-24 #11",
+            "schemeUri": null,
+            "subjectScheme": "User Defined",
+            "classificationCode": null
+        }
+    ],
+    "contributors": [],
+    "dates": [],
+    "publicationYear": 2026,
+    "language": "en",
+    "identifiers": [],
+    "sizes": [],
+    "formats": [],
+    "rightsList": [],
+    "descriptions": [
+        {
+            "lang": "en",
+            "description": "Core",
+            "descriptionType": "Methods"
+        }
+    ],
+    "geoLocations": [],
+    "fundingReferences": [],
+    "relatedIdentifiers": [],
+    "relatedItems": [],
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "providerId": "hypc",
+    "clientId": "hypc.alegbj",
+    "agency": "datacite",
+    "state": "findable"
+}

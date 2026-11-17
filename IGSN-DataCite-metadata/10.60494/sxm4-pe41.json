@@ -1,0 +1,43 @@
+{
+    "id": "https://doi.org/10.60494/sxm4-pe41",
+    "doi": "10.60494/SXM4-PE41",
+    "url": "https://pid.geoscience.gov.au/sample/AU11248460",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Geoscience Australia"
+        }
+    ],
+    "titles": [
+        {
+            "title": "Geoscience Australia Sample Number: 11248460"
+        }
+    ],
+    "publisher": {
+        "name": "Geoscience Australia"
+    },
+    "container": {},
+    "subjects": [],
+    "publicationYear": 2020,
+    "identifiers": [],
+    "geoLocations": [
+        {
+            "geoLocationPlace": "State: NT, Country: AUS",
+            "geoLocationPoint": {
+                "pointLatitude": -19.7756754,
+                "pointLongitude": 135.8956725
+            }
+        }
+    ],
+    "providerId": "vvha",
+    "clientId": "vvha.drnxjp",
+    "agency": "datacite",
+    "state": "findable"
+}

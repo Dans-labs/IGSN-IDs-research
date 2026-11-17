@@ -1,0 +1,52 @@
+{
+    "id": "https://doi.org/10.25706/digitalcsic-igsn/622170",
+    "doi": "10.25706/DIGITALCSIC-IGSN/622170",
+    "url": "http://hdl.handle.net/10261/418040",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Goso, C."
+        }
+    ],
+    "titles": [
+        {
+            "title": "UR-1"
+        }
+    ],
+    "publisher": {
+        "name": "DIGITAL.CSIC; CSIC - Instituto de Geociencias Barcelona (GEO3BCN)"
+    },
+    "container": {},
+    "subjects": [
+        {
+            "subject": "Tephra"
+        },
+        {
+            "subject": "Sedimentary&gt;Volcaniclastic"
+        },
+        {
+            "subject": "White ash"
+        }
+    ],
+    "publicationYear": 2026,
+    "identifiers": [],
+    "geoLocations": [
+        {
+            "geoLocationPlace": "Arroyo Bequel\u00f3, Uruguay",
+            "geoLocationPoint": {
+                "pointLatitude": -33,
+                "pointLongitude": -57
+            }
+        }
+    ],
+    "providerId": "csic",
+    "clientId": "csic.digital-igsn",
+    "agency": "datacite",
+    "state": "findable"
+}

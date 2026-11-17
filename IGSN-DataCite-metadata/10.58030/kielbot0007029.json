@@ -1,0 +1,145 @@
+{
+    "id": "https://doi.org/10.58030/kielbot0007029",
+    "doi": "10.58030/KIELBOT0007029",
+    "url": "https://igsn.uni-kiel.de/sample/10.58030/KIELBOT0007029?url=https%3A%2F%2Fkiel.jacq.org%2FKIEL0007029",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Material sample",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Ober, Dietrich",
+            "nameType": "Personal",
+            "givenName": "Dietrich",
+            "familyName": "Ober",
+            "affiliation": [
+                {
+                    "name": "Kiel University",
+                    "schemeUri": "https://ror.org/",
+                    "affiliationIdentifier": "https://ror.org/04v76ef78",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://orcid.org/",
+                    "nameIdentifier": "https://orcid.org/0000-0002-7372-4531",
+                    "nameIdentifierScheme": "ORCID"
+                },
+                {
+                    "schemeUri": "https://d-nb.info/gnd/",
+                    "nameIdentifier": "https://d-nb.info/gnd/115879242",
+                    "nameIdentifierScheme": "GND"
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "title": "Inga vera Willd. (Herbarium KIEL)"
+        }
+    ],
+    "publisher": {
+        "name": "Kiel University",
+        "schemeUri": "https://ror.org/",
+        "publisherIdentifier": "https://ror.org/04v76ef78",
+        "publisherIdentifierScheme": "ROR"
+    },
+    "container": {},
+    "subjects": [],
+    "contributors": [
+        {
+            "name": "Ober, Dietrich",
+            "nameType": "Personal",
+            "givenName": "Dietrich",
+            "familyName": "Ober",
+            "affiliation": [
+                {
+                    "name": "Kiel University",
+                    "schemeUri": "https://ror.org/",
+                    "affiliationIdentifier": "https://ror.org/04v76ef78",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "contributorType": "ContactPerson",
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://orcid.org/",
+                    "nameIdentifier": "https://orcid.org/0000-0002-7372-4531",
+                    "nameIdentifierScheme": "ORCID"
+                },
+                {
+                    "schemeUri": "https://d-nb.info/gnd/",
+                    "nameIdentifier": "https://d-nb.info/gnd/115879242",
+                    "nameIdentifierScheme": "GND"
+                }
+            ]
+        },
+        {
+            "name": "Leibold, Friedrich Ernst",
+            "nameType": "Personal",
+            "givenName": "Friedrich Ernst",
+            "familyName": "Leibold",
+            "contributorType": "DataCollector",
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "http://www.wikidata.org/entity/",
+                    "nameIdentifier": "http://www.wikidata.org/entity/Q15300543",
+                    "nameIdentifierScheme": "Wikidata"
+                }
+            ]
+        }
+    ],
+    "dates": [
+        {
+            "date": "2022-07-29T09:36:50",
+            "dateType": "Submitted"
+        }
+    ],
+    "publicationYear": 2022,
+    "identifiers": [
+        {
+            "identifier": "10273/KIELBOT0007029",
+            "identifierType": "IGSN"
+        }
+    ],
+    "descriptions": [
+        {
+            "description": "Specimen 0007029 of Herbarium KIEL.",
+            "descriptionType": "Abstract"
+        },
+        {
+            "description": "Genus: Inga",
+            "descriptionType": "TechnicalInfo"
+        },
+        {
+            "description": "Species: vera",
+            "descriptionType": "TechnicalInfo"
+        },
+        {
+            "description": "Family: Mimosaceae",
+            "descriptionType": "TechnicalInfo"
+        }
+    ],
+    "geoLocations": [
+        {
+            "geoLocationPlace": "trop. Mexico, Mexico"
+        }
+    ],
+    "relatedIdentifiers": [
+        {
+            "relationType": "IsIdenticalTo",
+            "relatedIdentifier": "10273/KIELBOT0007029",
+            "relatedIdentifierType": "IGSN"
+        }
+    ],
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "providerId": "fnma",
+    "clientId": "fnma.xssojy",
+    "agency": "datacite",
+    "state": "findable"
+}

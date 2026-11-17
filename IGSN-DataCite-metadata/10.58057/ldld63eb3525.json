@@ -1,0 +1,39 @@
+{
+    "id": "https://doi.org/10.58057/ldld63eb3525",
+    "doi": "10.58057/LDLD63EB3525",
+    "url": "https://app.lithodat.com/doi/10.58057/LDLD63EB3525",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "PhysicalObject",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Theile, Moritz"
+        }
+    ],
+    "titles": [
+        {
+            "title": "Vinko Demo"
+        }
+    ],
+    "publisher": {
+        "name": "Lithodat Pty Ltd"
+    },
+    "container": {},
+    "subjects": [],
+    "contributors": [],
+    "dates": [],
+    "publicationYear": 2025,
+    "identifiers": [],
+    "descriptions": [],
+    "geoLocations": [],
+    "relatedIdentifiers": [],
+    "providerId": "hypc",
+    "clientId": "hypc.alegbj",
+    "agency": "datacite",
+    "state": "findable"
+}

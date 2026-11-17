@@ -1,0 +1,78 @@
+{
+    "id": "https://doi.org/10.60488/bis000000018197",
+    "doi": "10.60488/BIS000000018197",
+    "url": "https://biosamples.geomar.de/Entity/18197",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Material Sample",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Mittermayer, Felix",
+            "nameType": "Personal",
+            "givenName": "Felix",
+            "familyName": "Mittermayer",
+            "affiliation": [
+                {
+                    "name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+                    "schemeUri": "https://ror.org",
+                    "affiliationIdentifier": "https://ror.org/02h2x0161",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://orcid.org",
+                    "nameIdentifier": "https://orcid.org/0000-0002-4513-9634",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "lang": null,
+            "title": "Biosamples from Meteor cruise M182 with Multinet-Maxi (M182_25-1) Net 3",
+            "titleType": null
+        }
+    ],
+    "publisher": {
+        "name": "GEOMAR Biosample Information System"
+    },
+    "container": {},
+    "subjects": [],
+    "contributors": [],
+    "dates": [
+        {
+            "date": "2024",
+            "dateType": "Issued",
+            "dateInformation": null
+        }
+    ],
+    "publicationYear": 2024,
+    "identifiers": [],
+    "sizes": [],
+    "formats": [],
+    "rightsList": [],
+    "descriptions": [],
+    "geoLocations": [
+        {
+            "geoLocationPoint": {
+                "pointLatitude": 18.00202,
+                "pointLongitude": -22.78637
+            }
+        }
+    ],
+    "fundingReferences": [],
+    "relatedIdentifiers": [],
+    "relatedItems": [],
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "providerId": "hema",
+    "clientId": "hema.ndvoef",
+    "agency": "datacite",
+    "state": "findable"
+}

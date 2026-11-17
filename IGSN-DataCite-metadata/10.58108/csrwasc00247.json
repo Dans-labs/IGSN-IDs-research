@@ -1,0 +1,67 @@
+{
+    "id": "https://doi.org/10.58108/csrwasc00247",
+    "doi": "10.58108/CSRWASC00247",
+    "url": "https://cmr-specify.csiro.au/specify/bycatalog/CMR-RM/2024-RM-0000032620",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "GULSON/ ANDREW",
+            "nameType": "Personal",
+            "affiliation": [],
+            "nameIdentifiers": []
+        }
+    ],
+    "titles": [
+        {
+            "title": "Rock subcollection from rockstore - MT ISA:SC00247"
+        }
+    ],
+    "publisher": {
+        "name": "Commonwealth Scientific and Industrial Research Organisation (CSIRO)"
+    },
+    "container": {},
+    "subjects": [],
+    "contributors": [],
+    "dates": [
+        {
+            "date": "2016",
+            "dateType": "Issued"
+        }
+    ],
+    "publicationYear": 2016,
+    "identifiers": [
+        {
+            "identifier": "10273/CSRWASC00247",
+            "identifierType": "IGSN"
+        },
+        {
+            "identifier": "MT ISA:SC00247",
+            "identifierType": "Local"
+        }
+    ],
+    "sizes": [],
+    "formats": [],
+    "rightsList": [],
+    "descriptions": [],
+    "geoLocations": [],
+    "fundingReferences": [],
+    "relatedIdentifiers": [
+        {
+            "relationType": "IsIdenticalTo",
+            "relatedIdentifier": "10273/CSRWASC00247",
+            "relatedIdentifierType": "IGSN"
+        }
+    ],
+    "relatedItems": [],
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "providerId": "zwux",
+    "clientId": "zwux.csiro-igsn",
+    "agency": "datacite",
+    "state": "findable"
+}

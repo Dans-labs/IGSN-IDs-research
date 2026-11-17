@@ -1,0 +1,43 @@
+{
+    "id": "https://doi.org/10.60494/89y4-2v04",
+    "doi": "10.60494/89Y4-2V04",
+    "url": "https://pid.geoscience.gov.au/sample/AU11251272",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Geoscience Australia"
+        }
+    ],
+    "titles": [
+        {
+            "title": "Geoscience Australia Sample Number: 11251272"
+        }
+    ],
+    "publisher": {
+        "name": "Geoscience Australia"
+    },
+    "container": {},
+    "subjects": [],
+    "publicationYear": 2020,
+    "identifiers": [],
+    "geoLocations": [
+        {
+            "geoLocationPlace": "State: NT, Country: AUS",
+            "geoLocationPoint": {
+                "pointLatitude": -19.7756754,
+                "pointLongitude": 135.8956725
+            }
+        }
+    ],
+    "providerId": "vvha",
+    "clientId": "vvha.drnxjp",
+    "agency": "datacite",
+    "state": "findable"
+}

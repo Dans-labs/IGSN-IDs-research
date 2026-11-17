@@ -1,0 +1,86 @@
+{
+    "id": "https://doi.org/10.58100/ibcr0347es42001",
+    "doi": "10.58100/IBCR0347ES42001",
+    "url": "http://dis.iodp.pangaea.de/BCRDIS/webview/CORES_INFO.aspx?SKEY=25670&SEC=IBCR0347ES42001",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Section",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "AndrEn, Thomas",
+            "nameType": "Personal",
+            "givenName": "Thomas",
+            "familyName": "AndrEn",
+            "affiliation": [],
+            "nameIdentifiers": []
+        },
+        {
+            "name": "Jorgensen, Bo Barker",
+            "nameType": "Personal",
+            "givenName": "Bo Barker",
+            "familyName": "Jorgensen",
+            "affiliation": [],
+            "nameIdentifiers": []
+        }
+    ],
+    "titles": [
+        {
+            "title": "347_59_A_11_2"
+        }
+    ],
+    "publisher": {
+        "name": "Bremen-BCR"
+    },
+    "container": {
+        "type": "Series",
+        "identifier": "10.58100IBCR0347ECY0001",
+        "identifierType": "DOI"
+    },
+    "subjects": [],
+    "contributors": [],
+    "dates": [
+        {
+            "date": "2013-10-15",
+            "dateType": "Collected"
+        },
+        {
+            "date": "2017",
+            "dateType": "Issued"
+        }
+    ],
+    "publicationYear": 2017,
+    "identifiers": [
+        {
+            "identifier": "10273/IBCR0347ES42001",
+            "identifierType": "IGSN"
+        }
+    ],
+    "sizes": [],
+    "formats": [],
+    "rightsList": [],
+    "descriptions": [],
+    "geoLocations": [],
+    "fundingReferences": [],
+    "relatedIdentifiers": [
+        {
+            "relationType": "IsIdenticalTo",
+            "relatedIdentifier": "10273/IBCR0347ES42001",
+            "relatedIdentifierType": "IGSN"
+        },
+        {
+            "relationType": "IsPartOf",
+            "relatedIdentifierType": "DOI"
+        }
+    ],
+    "relatedItems": [],
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "providerId": "pangaea",
+    "clientId": "pangaea.ibcr",
+    "agency": "datacite",
+    "state": "findable"
+}

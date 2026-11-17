@@ -1,0 +1,78 @@
+{
+    "id": "https://doi.org/10.82511/inhsherp4244",
+    "doi": "10.82511/INHSHERP4244",
+    "url": "https://app.geosamples.org/sample/igsn/10.82511/INHSHERP4244",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Specimen",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Santoyo Brito, Enrique",
+            "nameType": "Personal",
+            "givenName": "Enrique",
+            "familyName": "Santoyo Brito",
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://orcid.org",
+                    "nameIdentifier": "https://orcid.org/0000-0003-3997-3232",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "title": "INHS 4244 Specimen Macrobiology>Biology Scientific name; Kinosternon flavescens spooneri"
+        }
+    ],
+    "publisher": {
+        "name": "SESAR"
+    },
+    "container": {},
+    "subjects": [
+        {
+            "subject": "Specimen"
+        },
+        {
+            "subject": "Macrobiology&gt;Biology"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Illinois Natural History Survey",
+            "nameType": "Organizational",
+            "contributorType": "HostingInstitution"
+        }
+    ],
+    "dates": [
+        {
+            "date": "2026-05-20",
+            "dateType": "Updated"
+        },
+        {
+            "date": "1949-06-09",
+            "dateType": "Collected"
+        }
+    ],
+    "publicationYear": 2026,
+    "identifiers": [],
+    "geoLocations": [
+        {
+            "geoLocationPlace": "7 mi N Oquawka United States Illinois Henderson",
+            "geoLocationPoint": {
+                "pointLatitude": 41.04741,
+                "pointLongitude": -90.93315
+            }
+        }
+    ],
+    "relatedIdentifiers": [],
+    "providerId": "illinois",
+    "clientId": "illinois.inhs",
+    "agency": "datacite",
+    "state": "findable"
+}

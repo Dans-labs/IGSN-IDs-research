@@ -1,0 +1,137 @@
+{
+    "id": "https://doi.org/10.82581/jhamac00001-s8r7c2",
+    "doi": "10.82581/JHAMAC00001-S8R7C2",
+    "url": "https://data.htmdec.org/#igsn/JHAMAC00001-S8R7C2",
+    "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "material sample",
+        "resourceTypeGeneral": "PhysicalObject"
+    },
+    "creators": [
+        {
+            "name": "Berlia, Rohit",
+            "nameType": "Personal",
+            "givenName": "Rohit",
+            "familyName": "Berlia",
+            "affiliation": [
+                {
+                    "name": "Johns Hopkins University",
+                    "schemeUri": "https://ror.org",
+                    "affiliationIdentifier": "https://ror.org/00za53h95",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://orcid.org",
+                    "nameIdentifier": "https://orcid.org/0000-0002-7641-9022",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Mehta, Rayna",
+            "nameType": "Personal",
+            "givenName": "Rayna",
+            "familyName": "Mehta",
+            "affiliation": [
+                {
+                    "name": "Johns Hopkins University",
+                    "schemeUri": "https://ror.org",
+                    "affiliationIdentifier": "https://ror.org/00za53h95",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://orcid.org",
+                    "nameIdentifier": "https://orcid.org/0009-0005-5886-4885",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        },
+        {
+            "name": "Weihs, Timothy",
+            "nameType": "Personal",
+            "givenName": "Timothy",
+            "familyName": "Weihs",
+            "affiliation": [
+                {
+                    "name": "Johns Hopkins University",
+                    "schemeUri": "https://ror.org",
+                    "affiliationIdentifier": "https://ror.org/00za53h95",
+                    "affiliationIdentifierScheme": "ROR"
+                }
+            ],
+            "nameIdentifiers": [
+                {
+                    "schemeUri": "https://orcid.org",
+                    "nameIdentifier": "https://orcid.org/0000-0002-2782-8890",
+                    "nameIdentifierScheme": "ORCID"
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "title": "Combinatorial synthesis of 200 micron thick graded Cu-Ti foils - S8R7C2"
+        }
+    ],
+    "publisher": {
+        "lang": "en",
+        "name": "Hopkins Extreme Materials Institute",
+        "schemeUri": "https://ror.org/",
+        "publisherIdentifier": "https://ror.org/02ed2th17",
+        "publisherIdentifierScheme": "ROR"
+    },
+    "container": {},
+    "subjects": [],
+    "contributors": [],
+    "dates": [
+        {
+            "date": "2025-07-30",
+            "dateType": "Submitted"
+        }
+    ],
+    "publicationYear": 2026,
+    "identifiers": [],
+    "sizes": [],
+    "formats": [],
+    "rightsList": [],
+    "descriptions": [
+        {
+            "description": "This work focuses on the synthesis of ~200 \u00b5m-thick freestanding Cu\u2013Ti foils with a Ti compositional gradient from 0.1 to 6.5 at.%. The foils are used to study the aging response of Cu\u2013Ti alloys as a function of Ti content and aging time. The effect of Ti concentration, precipitate size, and precipitate volume fraction on hardness, Hugoniot elastic limit (HEL), and spall strength will be investigated.  Substrate: 8, row: 7, column: 2.",
+            "descriptionType": "Abstract"
+        },
+        {
+            "description": "The Cu\u2013Ti foils are fabricated using the magnetron sputtering-based thick-foil combinatorial synthesis method developed in Weihs group.",
+            "descriptionType": "Methods"
+        }
+    ],
+    "geoLocations": [],
+    "fundingReferences": [
+        {
+            "awardTitle": "AI-Driven Integrated and Automated Materials Design for Extreme Environments (AMDEE)",
+            "funderName": "U.S. Army Materiel Command",
+            "awardNumber": "W911NF-23-2-0062",
+            "funderIdentifier": "https://ror.org/011rwyf32",
+            "funderIdentifierType": "ROR"
+        }
+    ],
+    "relatedIdentifiers": [
+        {
+            "relationType": "IsPartOf",
+            "relatedIdentifier": "10.82581/jhamac00001",
+            "relatedIdentifierType": "DOI"
+        }
+    ],
+    "relatedItems": [],
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "providerId": "jhu",
+    "clientId": "jhu.hemi-igsn",
+    "agency": "datacite",
+    "state": "findable"
+}
